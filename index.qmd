@@ -9,8 +9,6 @@ date: "Ciclo 2026"
 
 ## Análisis y estudio de la economía underground
 
-![Logo del curso](assets/images/logo-dark-web.svg)
-
 ::: {.callout-note}
 ## Información del Curso
 

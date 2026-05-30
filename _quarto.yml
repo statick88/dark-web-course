@@ -1,15 +1,17 @@
 project:
   type: book
   output-dir: docs
-  resources:
-    - "assets/**"
-    - "css/**"
 
 book:
   title: "Dark Web: De 0 a Experto"
   subtitle: "Análisis y estudio de la economía underground"
   author: "Diego Saavedra"
   date: "2026"
+  search: true
+  sidebar:
+    style: docked
+    background: light
+    pinned: true
   chapters:
     - index.qmd
     - syllabus.qmd
@@ -76,14 +78,8 @@ book:
 
 format:
   html:
-    theme:
-      dark: solar
-      light: cosmo
+    theme: solar
     toc: true
-    toc-depth: 3
     number-sections: true
-    code-fold: true
-    css: css/dark-web.css
   pdf:
     documentclass: report
-    latex-engine: xelatex

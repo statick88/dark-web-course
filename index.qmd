@@ -1,0 +1,39 @@
+---
+title: "Dark Web: De 0 a Experto"
+subtitle: "Análisis y estudio de la economía underground"
+author: "Diego Saavedra"
+date: "Ciclo 2026"
+---
+
+# Dark Web: De 0 a Experto
+
+## Análisis y estudio de la economía underground
+
+![Logo del curso](assets/images/logo-dark-web.svg)
+
+::: {.callout-note}
+## Información del Curso
+
+- **Duración**: 12 semanas (3 créditos)
+- **Modalidad**: Presencial / Virtual sincrónico
+- **Requisitos previos**: Conocimientos básicos de redes, sistemas operativos y programación
+- **Herramientas**: Tor Browser, Whonix, entornos virtualizados aislados
+- **Advertencia**: Todo el material se basa en análisis de fuentes abiertas. El acceso a herramientas reales requiere entornos controlados y con autorización legal.
+:::
+
+## ¿Qué aprenderás?
+
+En este curso explorarás el ecosistema oculto de la dark web desde una perspectiva técnica y de investigación, entendiendo cómo funcionan las herramientas maliciosas, cómo se comercializan y cómo defenderse de ellas.
+
+### Competencias que desarrollarás:
+
+1. **Navegar de forma segura** por la dark web usando Tor y Whonix
+2. **Analizar herramientas del underground** como loaders, stealers y ransomware
+3. **Entender el modelo económico** de la cibercriminalidad organizada
+4. **Aplicar técnicas de reverse engineering** a malware real
+5. **Desarrollar estrategias de defensa** basadas en conocimiento de amenazas
+
+## ¡Comencemos!
+
+> "Conocer al enemigo es la mejor forma de prepararse para la batalla."  
+> — Sun Tzu, adaptado al contexto de ciberseguridad

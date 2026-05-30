@@ -1,0 +1,80 @@
+---
+unit: 5
+title: "Information Stealers"
+program: "Ingeniería en Sistemas"
+university: "UNL"
+estimated_time: "6 horas"
+keywords:
+  - "stealers"
+  - "Raccoon Stealer"
+  - "SapphireStealer"
+  - "credential harvesting"
+output: quarto
+---
+
+# Unidad 5: Information Stealers
+
+## 1. Introducción
+
+Los stealers son el **columna vertebral** de la economía del underground. Roban credenciales, cookies, wallets, y datos sensibles. Este mercado genera miles de millones anuales.
+
+## 2. Proceso de un stealer
+
+```
+1. Harvesting → 2. Collection → 3. Exfiltration → 4. Monetización
+```
+
+### 2.1. Victim Download
+
+- Archivos ZIP
+- Documentos maliciosos
+- Cracks de software
+
+### 2.2. Data Collection
+
+| Tipo de dato | Ubicación típica |
+|--------------|------------------|
+| Passwords navegadores | `AppData/Local/*/Login Data` |
+| Cookies | `Cookies.sqlite`, `network.cookie` |
+| Cryptowallets | `AppData/Roaming/*/wallet.dat` |
+| Credit cards | Navegadores, keylogger |
+
+### 2.3. Exfiltration
+
+- **C2 domains**: `.ru`, `.tk`
+- **Telegram bots**: Envío directo
+- **FTP**: Servidores comprometidos
+
+## 3. Caso: Raccoon Stealer
+
+### Funcionalidad clave
+
+```python
+# Pseudocódigo Raccoon
+def collect_browser_data():
+    browsers = ["Chrome", "Firefox", "Edge"]
+    for browser in browsers:
+        # Extraer logins
+        logins = extract_logins(browser)
+        # Extraer cookies
+        cookies = extract_cookies(browser)
+        # Extraer history
+        history = extract_history(browser)
+```
+
+### Evasion
+
+- **Mutex**: Evita doble ejecución
+- **VM detection**: Salta en máquinas virtuales
+- **Sleep**: Delay para evitar sandbox
+
+## 4. Ejercicios
+
+1. Analizar strings de SapphireStealer
+2. Identificar rutas de extracción de credenciales
+
+## 5. Auto-Evaluación
+
+1. ¿Por qué siguen funcionando los stealers?
+2. Métodos de exfiltración más comunes
+3. Diferencias Raccoon vs RedLine

@@ -1,0 +1,98 @@
+---
+unit: 10
+title: "Windows Ransomware"
+estimated_time: "8 horas"
+keywords:
+  - "ransomware"
+  - "encryptor"
+  - "REvil"
+  - "Sodinokibi"
+output: quarto
+---
+
+# Unidad 10: Windows Ransomware
+
+## 1. Introducción
+
+El ransomware es el **producto final** del pipeline de la dark web. Lockers encriptan archivos y exigen rescate. El modelo Ransomware-as-a-Service (RaaS) democratizó su uso.
+
+## 2. Historia del ransomware
+
+| Etapa | Año | Característica |
+|-------|-----|----------------|
+| Primeros | 2005-2012 | Encryption simples, envío por email |
+| Modernos | 2013-2019 | Crypto, C2, evasión |
+| RaaS | 2020+ | Afiliados, soporte, profit sharing |
+
+## 3. Técnicas del locker
+
+### 3.1. Generación de claves
+
+```c
+// Algoritmo típico de generación
+RSA *rsa = RSA_generate_key(2048, RSA_F4, NULL, NULL);
+unsigned char aes_key[32];
+RAND_bytes(aes_key, 32);  // AES-256 key for files
+```
+
+### 3.2. Evasión de recuperación
+
+- **Delete shadow copies**: `vssadmin delete shadows`
+- **Exclude system dirs**: Evita que el OS no arranqué
+- **Whitelist archivos**: No encripta todo
+
+## 4. Caso: REvil/Sodinokibi
+
+El libro compara **dos versiones**:
+
+### Versión temprana (2019)
+- Encrypt simple con AES
+- Whitelist limitada: `C:\Windows`, `bootmgr`
+- Payload pequeño (~50KB)
+- Sin procesos adicionales
+
+### Versión mejorada (2020+)
+- **Process hollowing** para inyección
+- **Dynamic config** via comando de línea
+- **UAC bypass** mejorado
+- **Anti-analysis** integrado
+
+## 5. Snaffler para reconocimiento
+
+Antes de deployar ransomware, los atacantes buscan datos valiosos:
+
+```cmd
+# Enumerar shares accesibles
+net view
+net view \\target-system
+net share
+
+# Snaffler para triage
+Snaffler.exe -s -a -o shares.log
+# Salida: {Green} (bajo priority) vs {Black} (VM, SQL, passwords)
+```
+
+**Nota de seguridad**: Snaffler es detectado por Defender como no "OPSEC safe".
+
+## 6. Decryptores
+
+Crean cuando:
+- Claves privadas filtradas (REvil shutdown 2021)
+- Implementación criptográfica débil
+- Bug en RNG o key derivation
+
+### Ejemplo: Babuk leak
+El source code filtrado permitió crear decryptor después de encontrar errores.
+
+## 5. Decryptores
+
+Desarrolladores crean decryptores cuando:
+- Claves privadas filtradas
+- Implementación débil
+- Colisiones de RNG
+
+## 6. Auto-Evaluación
+
+1. Fases del pipeline de ransomware
+2. Técnicas de eliminación de backups
+3. Cómo funciona el modelo RaaS

@@ -1,0 +1,26 @@
+---
+quiz: "6"
+title: "Quiz 6: Banking Trojans"
+---
+
+# Quiz 6: Banking Trojans
+
+### 1. Identificar
+
+Permiso de Android que abusa Cerberus para overlays.
+
+### 2. Explicar
+
+Técnica de process injection usada por TrickBot.
+
+### 3. Comparar
+
+Banking trojan vs RAT principal diferencia.
+
+### 4. Verificar
+
+Método para detectar overlays en Android.
+
+### 5. Comando
+
+APKtool command para decompilar un APK.

@@ -1,0 +1,100 @@
+---
+quiz: 1
+title: "Quiz 1: Fundamentos de la Dark Web"
+unit: 1
+estimated_time: "30 minutos"
+---
+
+# Quiz 1: Fundamentos de la Dark Web
+
+## Instrucciones
+
+Responde las siguientes preguntas. Muestra tu trabajo donde sea necesario. Usa tus propias palabras.
+
+---
+
+## Preguntas
+
+### 1. Desarrollo (Bloom: Comprender)
+
+Explica en 3-5 oraciones la diferencia técnica entre el Surface Web y la Dark Web. Incluye:
+- Cómo se indexa cada uno
+- Qué software se requiere para acceder
+
+**Puntos**: 10
+
+---
+
+### 2. Opción múltiple (Bloom: Recordar)
+
+¿Cuántos nodos intermedios procesa el tráfico en la red Tor por defecto?
+
+a) 1 nodo (entrada única)
+b) 3 nodos (entrada, medio, salida)
+c) 5 nodos (configuración máxima)
+d) El número varia según carga
+
+> **Respuesta**: 
+
+---
+
+### 3. Verdadero/Falso (Bloom: Evaluar)
+
+La deep web contiene exclusivamente contenido ilegal y está oculta por malas intenciones.
+
+> **Respuesta**:  
+> **Justificación**:
+
+---
+
+### 4. Análisis (Bloom: Analizar)
+
+Dado el siguiente output de `curl` usando un proxy Tor:
+
+```
+{"IsExit": false, "IP": "185.220.101.1"}
+```
+
+¿Qué puedes inferir?
+- ¿Estás usando Tor?
+- ¿Cuál es el IP de salida?
+- ¿Qué indica "IsExit: false"?
+
+**Puntos**: 10
+
+---
+
+### 5. Comando (Bloom: Aplicar)
+
+Escribe el comando para verificar tu IP usando el proxy SOCKS de Tor. No copies el ejemplo del laboratorio — escribe desde cero.
+
+**Respuesta**:
+
+---
+
+### 6. Diseño (Bloom: Crear)
+
+Dibuena (en papel) el flujo de información desde tu navegador hasta un servidor .onion. Etiqueta:
+- Cliente
+- Entry guard
+- Relay nodes
+- Exit node (si aplica)
+- Servidor destino
+
+**Puntos**: 10
+
+---
+
+## Rubrica rápida
+
+| Pregunta | Puntos |
+|----------|--------|
+| 1 | 10 |
+| 2 | 5 |
+| 3 | 5 |
+| 4 | 10 |
+| 5 | 5 |
+| 6 | 10 |
+| **Total** | **45** |
+
+Passing score: 32/45 (71%)

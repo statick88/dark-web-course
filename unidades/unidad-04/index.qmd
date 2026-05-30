@@ -1,0 +1,76 @@
+---
+unit: 4
+title: "Técnicas de Entrega de Malware"
+course: ""
+program: "Ingeniería en Sistemas"
+university: "UNL"
+estimated_time: "8 horas"
+keywords:
+  - "loaders"
+  - "botnets"
+  - "SmokeLoader"
+  - "BunnyLoader"
+output: quarto
+---
+
+# Unidad 4: Técnicas de Entrega de Malware
+
+## 1. Introducción
+
+Después de obtener acceso, el atacante necesita **entregar** el payload. Los loaders son el primer estadio de ejecución; los botnets proporcionan infraestructura masiva. Esta unidad analiza técnicas reales de entrega.
+
+## 2. Loaders
+
+### 2.1. Qué es un loader
+
+Un loader **asegura la entrega** del payload. Pueden incluir:
+- Keylogging
+- Screenshots
+- Ejecución de comandos
+- Funciones de discovery
+
+### 2.2. SmokeLoader (desde 2013)
+
+Técnicas de evasión identificadas:
+- **Opaque predicates**: Expresiones que siempre son true/false pero difíciles de determinar
+- **Function/string obfuscation**: Encripta funciones y strings para ocultar propósito
+- **Anti-hooking**: Detecta y evita hooking de sandboxes
+- **Anti-debugging**: Chequea flags de debugging (`BeingDebugged`)
+- **Hash-based import resolution**: Oculta funciones importadas usando hashes
+
+**Precio en dark web**: ~$2,500 por builder que genera HTA files
+
+### 2.3. BunnyLoader
+
+Características:
+- **File download y execution**
+- **Anti-analysis técniques** (sleep, delays)
+- **Modular** con plugins
+- **Registry persistence**
+
+## 3. Botnets
+
+### 3.1. Mirai Family
+
+Mirai (2016) revolucionó el DDoS:
+- **Scanning**: Telnet en puertos 23/2323
+- **Brute force**: Credenciales por defecto
+- **Infection**: Binario MIPS/ARM
+
+### 3.2. CosaNostra Botnet
+
+Botnet moderna con:
+- **C2 via Tor**
+- **DDoS + crypto mining**
+- **Auto-update**
+
+## 4. Ejercicios
+
+1. Analiza un loader estático con strings y entropy
+2. Identifica señales de Mirai en logs de red
+
+## 5. Auto-Evaluación
+
+1. ¿Qué hace un loader?
+2. Métodos anti-debug de SmokeLoader
+3. Protocolo de infección de Mirai

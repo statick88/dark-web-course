@@ -1,0 +1,48 @@
+---
+lab: 4
+title: "Laboratorio 4: Análisis de Loaders"
+unit: 4
+estimated_time: "3 horas"
+---
+
+# Laboratorio 4: Análisis de Loaders
+
+## Objetivo
+
+Identificar técnicas de evasión en SmokeLoader y BunnyLoader usando análisis estático.
+
+## Paso 1: SmokeLoader Anti-debug
+
+### 1.1. Chequeo de debugger
+
+```assembly
+; Assembly típico
+call IsDebuggerPresent
+test al, al
+jz skip_evasion
+```
+
+## Paso 2: BunnyLoader String Obfuscation
+
+### 2.1. Identificar strings encriptadas
+
+```bash
+# Entropy analysis
+pecheck.py malware.exe | grep -A5 -B5 "entropy"
+```
+
+## Paso 3: Identificar rutas de descarga
+
+### 3.1. URLs ocultas
+
+```bash
+strings malware.exe | grep -E "https?://"
+```
+
+## Verificación
+
+| Checkpoint | Resultado |
+|------------|-----------|
+| Anti-debug | Identificado |
+| String enc | Rutas encontradas |
+| URLs | Lista de C2 |

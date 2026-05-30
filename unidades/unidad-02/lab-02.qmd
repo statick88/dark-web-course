@@ -1,0 +1,61 @@
+---
+lab: 2
+title: "Laboratorio 2: Configuración Whonix Avanzada"
+unit: 2
+estimated_time: "2 horas"
+---
+
+# Laboratorio 2: Configuración Whonix Avanzada
+
+## Objetivo
+
+Configurar Whonix con reglas de firewall adicionales y verificar la protección contra correlation attacks.
+
+## Paso 1: Configurar firewall host
+
+### 1.1. Reglas iptables
+
+```bash
+# En host (macOS/Linux)
+sudo iptables -A OUTPUT -o lo -j ACCEPT
+sudo iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
+sudo iptables -A OUTPUT -j DROP
+```
+
+## Paso 2: Configurar Whonix Gateway
+
+### 2.1. Editar configuración Tor
+
+```bash
+# En Whonix Gateway
+sudo nano /etc/tor/torrc
+# Agregar:
+# DisableNetworkTime=true
+# NewCircuitPeriod=600
+```
+
+## Paso 3: Verificar aislamiento
+
+### 3.1. Test de DNS leak
+
+```bash
+# En Workstation
+nslookup google.com
+# Debe fallar o resolver vía Tor
+```
+
+## Verificación
+
+| Checkpoint | Método | Resultado |
+|------------|--------|-----------|
+| Firewall | `iptables -L` | Reglas aplicadas |
+| DNS leak | `nslookup` | Sin leak |
+| IP pública | Tor check | IP diferente |
+
+## Rubrica
+
+| Criterio | 5 pts | 3 pts | 1 pt |
+|----------|-------|-------|------|
+| Configuración | Todo correcto | 2 errores menores | Errores críticos |
+| Verificación | 4/4 checkpoints | 2-3 checkpoints | <2 checkpoints |
+| Documentación | Completa | Básica | Incompleta |

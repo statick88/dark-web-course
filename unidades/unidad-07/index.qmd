@@ -1,0 +1,69 @@
+---
+unit: 7
+title: "Packers y Crypters"
+estimated_time: "8 horas"
+keywords:
+  - "packers"
+  - "crypters"
+  - "obfuscation"
+  - "entropy analysis"
+output: quarto
+---
+
+# Unidad 7: Packers y Crypters
+
+## 1. Introducción
+
+Los packers **ofuscan** el malware para evadir AV/EDR. Los crypters en el underground son herramientas de venta que demuestran "funcionalidad".
+
+## 2. Técnicas de protección
+
+### 2.1. String Obfuscation
+
+```c
+// String ofuscada
+char *enc = "\x48\x65\x6c\x6c\x6f"; // "Hello" XOR encrypted
+for(int i=0; i<len; i++) dec[i] = enc[i] ^ 0xAA;
+```
+
+### 2.2. Control Flow Obfuscation
+
+- **Junk code insertion**
+- **Opaque predicates**
+- **Jump tables**
+
+### 2.3. Entropy Analysis
+
+Entropy alta (> 7.0) indica:
+- Compresión
+- Encriptación  
+- Empaquetado
+
+## 3. Proceso de Unpacking
+
+### 3.1. Memory Allocation
+
+1. `VirtualAlloc` con permisos `PAGE_EXECUTE_READWRITE`
+2. Copia del stub desempacador
+3. Desencriptado del payload
+
+### 3.2. UpX Unpacking
+
+```bash
+# Identificar UpX
+upx -l malware.exe
+
+# Desempaquetar
+upx -d malware.exe -o unpacked.exe
+```
+
+## 4. Ejercicios
+
+1. Calcular entropy de archivo binario
+2. Identificar UPX con `strings` y `peid`
+
+## 5. Auto-Evaluación
+
+1. Señales de archivo empaquetado
+2. Método de unpacking manual
+3. Uso de entropy en análisis

@@ -1,0 +1,64 @@
+---
+unit: 8
+title: "Frameworks Command-and-Control"
+estimated_time: "8 horas"
+keywords:
+  - "C2"
+  - "Cobalt Strike"
+  - "Sliver"
+  - "Vermilion Strike"
+output: quarto
+---
+
+# Unidad 8: Frameworks Command-and-Control
+
+## 1. Introducción
+
+Los frameworks C2 son **infraestructuras de control** para sistemas comprometidos. Cobalt Strike es el estándar de facto, pero el underground tiene variantes piratas.
+
+## 2. Componentes de un C2
+
+| Componente | Función |
+|------------|---------|
+| **Implant** | Agente en víctima |
+| **Beacon** | Comunicación peródica |
+| **Team Server** | Control central |
+| **Staging** | Configuración dinámica |
+
+## 3. Caso: Vermilion Strike vs Cobalt Strike
+
+Vermilion Strike (copy de Cobalt Strike):
+- **Config decryption**: Algoritmo XOR simple
+- **Metadata collection**: Sistema, usuario, red
+- **Encrypted exfiltration**: AES-256
+
+### Técnicas de evasión
+
+- **Sleep masks**: Cambian shellcode
+- **Process hollowing**: Inyección en proceso legítimo
+- **Named pipes**: Comunicación interna
+
+## 4. Detección
+
+### 4.1. Tráfico C2
+
+Señales en red:
+- Conexiones HTTP recurrentes
+- User-Agent sospechosos
+- DNS tunneling
+
+### 4.2. Sliver Detection
+
+```bash
+# Análisis de tráfico
+sliver-server -s  # Staging server logs
+
+# Detección de beacon
+netstat -ano | grep :443  # Conexiones sospechosas
+```
+
+## 5. Auto-Evaluación
+
+1. Arquitectura de Cobalt Strike
+2. Configuración de beacon
+3. Métodos de detección de C2

@@ -1,0 +1,44 @@
+---
+lab: 5
+title: "Laboratorio 5: Análisis de Information Stealers"
+unit: 5
+estimated_time: "2 horas"
+---
+
+# Laboratorio 5: Análisis de Information Stealers
+
+## Objetivo
+
+Identificar rutas de extracción de credenciales en SapphireStealer usando técnicas estáticas.
+
+## Paso 1: Identificar rutas de datos
+
+### 1.1. Rutas de navegadores
+
+```bash
+strings SapphireStealer.exe | grep -i -E "(appdata|chrome|firefox|edge|login)"
+```
+
+## Paso 2: Identificar rutas de cryptowallets
+
+### 2.1. Wallets comunes
+
+```bash
+strings SapphireStealer.exe | grep -i -E "(wallet|bitcoin|ethereum|crypto)"
+```
+
+## Paso 3: Identificar rutas de exfiltración
+
+### 3.1. URLs de C2
+
+```bash
+strings SapphireStealer.exe | grep -i -E "(http|https|ftp|dns|telegram)"
+```
+
+## Verificación
+
+| Checkpoint | Resultado esperado |
+|------------|-------------------|
+| Browser paths | Wallets identificados |
+| Wallet paths | Rutas extraídas |
+| C2 URLs | Dominios encontrados |

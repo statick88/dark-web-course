@@ -1,0 +1,28 @@
+---
+quiz: 5
+title: "Quiz 5: Information Stealers"
+unit: 5
+estimated_time: "20 minutos"
+---
+
+# Quiz 5: Information Stealers
+
+### 1. Listar
+
+5 tipos de datos que roban los stealers.
+
+### 2. Explicar
+
+¿Por qué siguen siendo efectivos los stealers?
+
+### 3. Analizar
+
+¿Qué diferencia hay entre Raccoon y RedLine stealers?
+
+### 4. Identificar
+
+Ruta típica de credenciales en Chrome.
+
+### 5. Comando
+
+Escribe el comando para buscar strings relacionadas a cryptowallets.

@@ -1,0 +1,113 @@
+---
+unit: 2
+title: "Acceso Seguro y OPSEC"
+course: "Dark Web: De 0 a Experto"
+program: "Ingeniería en Sistemas"
+university: "UNL"
+estimated_time: "6 horas"
+prerequisites:
+  - "Unidad 1: Fundamentos"
+keywords:
+  - "OPSEC"
+  - "Whonix"
+  - "anonimato"
+output: quarto
+---
+
+# Unidad 2: Acceso Seguro y OPSEC
+
+## 1. Introducción
+
+Acceder a la dark web sin el anonimato adecuado es como entrar a una guerra sin equipo de protección. Las amenazas incluyen rastreo de IP, malware, y hasta intervención legal. Esta unidad te enseña a protegerte.
+
+## 2. Contenido Teórico
+
+### 2.1. Principios de OPSEC
+
+Operational Security (OPSEC) es la disciplina de proteger información sensible. Los principios clave:
+
+1. **Separación**: Ni tus datos personales ni tu comportamiento normal en la dark web
+2. **Comportamiento neutral**: Escribe de forma diferente, actúa de forma diferente
+3. **Infraestructura dedicada**: VMs limpias, no tu máquina principal
+
+::: {.callout-warning}
+## ⚠️ Preguntas que nunca debes responder en dark web
+
+- "¿Dónde vives?"
+- "¿Cuál es tu trabajo real?"
+- "¿Qué lenguaje escribo normalmente?"
+- "¿Qué hora es en mi zona horaria?"
+:::
+
+### 2.2. Arquitectura Whonix
+
+Whonix tiene **dos VMs**:
+
+| Componente | Función | Protección |
+|------------|---------|------------|
+| **Gateway** | Enrutamiento Tor | Aísla tráfico |
+| **Workstation** | Navegador y herramientas | Sin IP directa |
+
+```
+[Internet] → [Gateway Whonix] → [Workstation Whonix] → [Usuario]
+```
+
+### 2.3. Herramientas de defensa
+
+- **VM isolation**: VirtualBox con red host-only
+- **Network fingerprinting protection**: User agent randomizado
+- **Timing attacks**: No patrones predecibles
+- **Correlation resistance**: No doble uso de sesión
+
+## 3. Aplicaciones Prácticas
+
+### Escenario: Investigador identificado
+
+Un investigador fue identificado porque:
+1. Usó su frase típica en foros
+2. Visitó sitios a la misma hora todos los días
+3. Usó su navegador principal con Tor
+
+### Escenario: Setup seguro
+
+Un analista correcto:
+1. VM completamente nueva
+2. Comportamiento impredecible
+3. No personaliza nada
+
+## 4. Errores Comunes
+
+### ❌ Misconception: "Whonix es suficiente solito"
+
+**¿Por qué es falso?**: Whonix protege red, pero si usas mismo idioma, horarios, o patrones, la correlación es posible.
+
+### ❌ Misconception: "Puedo usar mi máquina para esto"
+
+**¿Por qué es falso?**: Cualquier instalación previa, cookies, o configuraciones son huellas.
+
+## 5. Actividades
+
+### Lectura
+
+- Kaye, L. (2026). *Dissecting the Dark Web*, Sección 1.2-1.5.
+
+### Ejercicios
+
+#### Ejercicio 1: Matriz de riesgos
+
+Lista 5 riesgos al acceder a dark web y propone mitigación.
+
+#### Ejercicio 2: Simulación de timeline
+
+Crea un horario impredecible para actividades de investigación.
+
+## 6. Auto-Evaluación
+
+1. **Definir**: ¿Qué significa operational security?
+2. **Explicar**: ¿Por qué dos VMs en Whonix?
+3. **Identificar**: Nombra 3 errores de OPSEC comunes.
+
+## 7. Bibliografía
+
+- Kaye, L. (2026). *Dissecting the Dark Web*, Capítulo 1.
+- NSA. (2020). *OPSEC Guidelines*. DoD 5200.28.

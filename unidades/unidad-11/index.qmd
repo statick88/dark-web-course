@@ -1,0 +1,105 @@
+---
+unit: 11
+title: "Linux y ESXi Ransomware"
+estimated_time: "8 horas"
+keywords:
+  - "linux ransomware"
+  - "esxi ransomware"
+  - "ALPHV"
+  - "virtualization"
+output: quarto
+---
+
+# Unidad 11: Linux y ESXi Ransomware
+
+## 1. Introducción
+
+Linux y ESXi son **blancos atractivos** porque:
+- Menos EDR que Windows
+- Acceso a VMs completas
+- Data centers completos comprometidos
+
+## 2. ESXi Hypervisor
+
+### 2.1. Ventajas para atacantes
+
+- VMs completas = más datos
+- Sin antivirus tradicional
+- Admin tool exposure (ports 80/443/902)
+
+### 2.2. REvil ESXi variant
+
+### 3 fases del ataque:
+
+| Fase | Acción | Detalles |
+|------|--------|----------|
+| **1. Shutdown** | Apaga VMs | `vim-cmd vmsvc/power.shutdown` |
+| **2. Encrypt** | Encripta archivos | `.vmdk` (disco), `.vmx` (config), `.vmsn` (snapshot) |
+| **3. Exfil** | Roba datos | Para doble extorsión (encryption + leak) |
+
+### Whitelist específico:
+
+```
+/bin, /etc, /usr, /lib, /var/log
+```
+No encripta el sistema operativo base para que ESXi arranque.
+
+## 3. ALPHV Rust-based
+
+El libro analiza la **implementación Rust**:
+
+### 3.1. Configuración
+
+Strings encriptados, **whitelisted directories** como `/bin` y `/etc`.
+
+### 3.2. Proceso
+
+1. **Parar servicios**: `kill -9` procesos críticos
+2. **Procesar archivos**: Encriptar con AES
+3. **Eliminar shadow**: Borrar snapshots
+
+### 3.3. Ventajas Rust
+
+- **Memory safety** sin garbage collector
+- **Binarios estáticos** sin dependencias
+- **Performance** similar a C/C++
+- **Menos detección** por no usar APIs típicas de Windows
+
+## 3. ALPHV Rust-based
+
+Las nuevas variantes usan **Go/Rust**:
+- Binarios estáticos
+- Menos detección heurística
+- Código nativo multiplataforma
+
+### Características
+
+```rust
+// Whitelisting en Rust
+let excluded = vec!["/bin", "/etc", "/usr", "/lib"];
+if !excluded.iter().any(|e| path.starts_with(e)) {
+    encrypt_file(path);
+}
+```
+
+## 4. Detección en Linux
+
+### Syslog monitoring
+
+```bash
+# Auditd para monitorear encriptación masiva
+-a always,exit -F arch=b64 -S open,openat -F exit=-EACCES -k suspicious_file_open
+```
+
+### Process monitoring
+
+```bash
+# Monitorear procesos sospechosos
+ps aux | grep -E "(openssl|gpg|age)"
+```
+
+## 5. Auto-Evaluación
+
+1. Diferencias clave Linux vs Windows ransomware
+2. Técnicas de detección en ESXi
+3. Ventajas del desarrollo en Rust

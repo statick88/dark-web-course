@@ -1,0 +1,68 @@
+---
+unit: 6
+title: "Banking Trojans"
+estimated_time: "8 horas"
+keywords:
+  - "banking trojans"
+  - "Cerberus"
+  - "TrickBot"
+  - "Android malware"
+output: quarto
+---
+
+# Unidad 6: Banking Trojans
+
+## 1. Introducción
+
+Los banking trojans son **malware financiero** especializado en robo de credenciales bancarias. Android usa Accessibility API para overlay, Windows usa inyección de procesos.
+
+## 2. Android Banking Trojans
+
+### 2.1. Accessibility API Abuse
+
+Los trojans solicitan permiso `android.permission.BIND_ACCESSIBILITY_SERVICE` para:
+- **Leer pantalla**
+- **Interceptar clicks**
+- **Injectar overlays**
+
+### 2.2. Cerberus Overlay
+
+```java
+// Pseudocódigo de overlay malicioso
+public class OverlayService extends AccessibilityService {
+    @Override
+    public void onAccessibilityEvent(AccessibilityEvent event) {
+        String packageName = event.getPackageName().toString();
+        if (packageName.equals("com.bank.app")) {
+            injectPhishingOverlay();
+        }
+    }
+}
+```
+
+## 3. Windows Banking Trojans
+
+### 3.1. TrickBot Browser Injection
+
+Técnicas:
+- **Process injection** en navegadores
+- **Function hooking** API
+- **Web injects** para modificar páginas
+
+### 3.2. Cadenas de ataque
+
+```
+1. Download → 2. Inject → 3. Hook → 4. Steal → 5. Exfiltrate
+```
+
+## 4. Mitigaciones
+
+- **Google Play Protect**
+- **EDR con detección de overlays**
+- **Políticas de no instalar APKs externos**
+
+## 5. Auto-Evaluación
+
+1. ¿Qué hace AccessibilityService?
+2. Técnica de inyección de TrickBot
+3. Señales de detección de overlays

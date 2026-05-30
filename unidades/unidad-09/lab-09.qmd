@@ -1,0 +1,51 @@
+---
+lab: 9
+title: "Laboratorio 9: Living Off the Land"
+unit: 9
+estimated_time: "2 horas"
+---
+
+# Laboratorio 9: Living Off the Land
+
+## Objetivo
+
+Identificar uso de LOLBins en logs de sistema mediante análisis de eventos.
+
+## Paso 1: Analizar logs de proceso
+
+### 1.1. Sysmon events
+
+```xml
+<!-- Evento 1: Process Create -->
+<Event>
+  <EventData>
+    <Data Name="Image">powershell.exe</Data>
+    <Data Name="CommandLine">-enc [payload]</Data>
+  </EventData>
+</Event>
+```
+
+## Paso 2: Identificar patrones sospechosos
+
+### 2.1. PowerShell encoded
+
+```bash
+# Buscar encoded commands
+grep -i "encodedcommand\|enc " sysmon.log
+```
+
+## Paso 3: WMI abuse detection
+
+### 3.1. WMIC patterns
+
+```bash
+grep -i "wmic.*process.*call.*create" sysmon.log
+```
+
+## Verificación
+
+| Checkpoint | Detección |
+|------------|-----------|
+| Encoded PS | Identificado |
+| WMI abuse | Detectado |
+| LOLBin chain | Reconstruido |

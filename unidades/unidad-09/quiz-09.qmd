@@ -1,0 +1,26 @@
+---
+quiz: 9
+title: "Quiz 9: Living Off the Land"
+---
+
+# Quiz 9: Living Off the Land
+
+### 1. Listar
+
+5 LOLBins comunes en Windows.
+
+### 2. Explicar
+
+Cómo BloodHound ayuda en lateral movement.
+
+### 3. Identificar
+
+MITRE TID para PowerShell abuse.
+
+### 4. Verificar
+
+Técnica defensiva contra PsExec.
+
+### 5. Comando
+
+Escribe el command para enumerar equipos en dominio.

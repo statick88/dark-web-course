@@ -1,0 +1,26 @@
+---
+quiz: 8
+title: "Quiz 8: Frameworks C2"
+---
+
+# Quiz 8: Frameworks C2
+
+### 1. Identificar
+
+Componentes principales de Cobalt Strike.
+
+### 2. Explicar
+
+Diferencia entre Beacon y Implant.
+
+### 3. Analizar
+
+Técnica de string deobfuscation en Vermilion Strike.
+
+### 4. Verificar
+
+Método para detectar tráfico C2 en red.
+
+### 5. Comando
+
+Escribe el comando para listar conexiones de red activas.

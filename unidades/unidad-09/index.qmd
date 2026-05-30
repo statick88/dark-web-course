@@ -1,0 +1,74 @@
+---
+unit: 9
+title: "Living Off the Land"
+estimated_time: "6 horas"
+keywords:
+  - "LOLBins"
+  - "Living off the Land"
+  - "evasion"
+  - "privilege escalation"
+output: quarto
+---
+
+# Unidad 9: Living Off the Land
+
+## 1. Introducción
+
+"Living Off the Land" significa usar **binarios legítimos** del sistema para actividades maliciosas. PowerShell, WMI, y herramientas de administrador se abusan para evadir detección.
+
+## 2. LOLBins comunes
+
+| Binario | Técnica típica | MITRE TID |
+|---------|----------------|-----------|
+| `powershell.exe` | Descarga y ejecución | T1059.001 |
+| `wmic.exe` | Enumeración de procesos | T1047 |
+| `rundll32.exe` | Ejecución de código | T1218.011 |
+| `mshta.exe` | HTML applications maliciosas | T1218.005 |
+| `wscript.exe` | Scripts JScript/VBScript | T1059.005 |
+
+## 3. Técnicas por fase
+
+### 3.1. Discovery
+
+```powershell
+# Enumeración de dominio
+Get-ADComputer -Filter *
+arp -a
+net view
+```
+
+### 3.2. Privilege Escalation
+
+```cmd
+# Abuso de servicios débiles
+sc query > services.txt
+icacls C:\Windows\Temp /grant Everyone:F
+```
+
+### 3.3. Lateral Movement
+
+```cmd
+# WMI para ejecución remota
+wmic /node:192.168.1.10 process call create "malware.exe"
+psexec \\192.168.1.10 -u admin -p passwd cmd.exe
+```
+
+## 4. Caso: Conti Playbook
+
+Documentos filtrados muestran:
+- Uso de `PsExec` para movimiento lateral
+- `BloodHound` para mapeo de AD
+- `Rubeus` para kerberoasting
+
+## 5. Mitigaciones
+
+- **Constrained Language Mode** para PowerShell
+- **AppLocker** para limitar binarios
+- **EDR con detección de comportamiento**
+- **Logging ampliado de procesos**
+
+## 6. Auto-Evaluación
+
+1. Lista 3 LOLBins y sus técnicas
+2. Explica cómo funciona BloodHound
+3. Propone mitigación para PsExec

@@ -1,0 +1,58 @@
+---
+lab: 3
+title: "Laboratorio 3: Análisis de Credenciales y Checkers"
+unit: 3
+estimated_time: "3 horas"
+---
+
+# Laboratorio 3: Análisis de Credenciales y Checkers
+
+## Objetivo
+
+Analizar el proceso de TMChecker para verificación de credenciales corporativas.
+
+## Paso 1: Identificar servicios objetivo
+
+### 1.1. Servicios corporativos comunes
+
+| Servicio | Puerto | Protocolo |
+|----------|--------|-----------|
+| OWA/Office365 | 443 | HTTPS |
+| VPN SSL | 443 | HTTPS |
+| RDP | 3389 | TCP |
+| SSH | 22 | TCP |
+
+## Paso 2: Identificar señales de TMChecker
+
+### 2.1. User-Agent estándar
+
+```bash
+# TMChecker usa User-Agent predecible
+curl -H "User-Agent: TMChecker/1.0" target.com/login
+```
+
+### 2.2. Patrones de login
+
+```bash
+# Secuencial: user1, user2, user3...
+# O usando lista predefinida
+# Siempre mismo User-Agent
+# Siempre mismo timing entre requests
+```
+
+## Paso 3: Identificar en logs
+
+### 3.1. Buscar patrones
+
+```bash
+# IPs múltiples, mismo User-Agent
+awk -F'"' '/Login/{print $6}' access.log | sort | uniq -c
+```
+
+## Verificación
+
+| Checkpoint | Resultado |
+|------------|-----------|
+| User-Agent | Identificado |
+| Timing | Analizado |
+| IP patterns | Detectado |

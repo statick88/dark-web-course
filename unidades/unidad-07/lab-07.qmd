@@ -1,0 +1,49 @@
+---
+lab: 7
+title: "Laboratorio 7: Unpacking de Malware"
+unit: 7
+estimated_time: "3 horas"
+---
+
+# Laboratorio 7: Unpacking de Malware
+
+## Objetivo
+
+Desempaquetar un binario protegido usando técnicas estáticas y dinámicas.
+
+## Paso 1: Identificar packer
+
+### 1.1. PEiD o Detect It Easy
+
+```bash
+diec malware.exe
+# O buscar firmas comunes
+strings malware.exe | head -20
+```
+
+## Paso 2: Calcular entropy
+
+### 2.1. Análisis de entropía
+
+```bash
+# Usar herramienta de entropía
+entropyscan.py malware.exe
+# Entropy alta (>7.0) indica compresión/encriptación
+```
+
+## Paso 3: Unpacking manual
+
+### 3.1. Memory dump
+
+En VMWare/VirtualBox:
+1. Ejecutar en máquina aislada
+2. Usar Process Dump: `procdump -ma malware.exe`
+3. Analizar dump con IDA/Ghidra
+
+## Verificación
+
+| Checkpoint | Resultado |
+|------------|-----------|
+| Packer ID | Identificado |
+| Entropy | Valor calculado |
+| Payload | Recuperado |

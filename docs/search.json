@@ -1,0 +1,2081 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dark Web: De 0 a Experto",
+    "section": "",
+    "text": "1 Dark Web: De 0 a Experto",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#análisis-y-estudio-de-la-economía-underground",
+    "href": "index.html#análisis-y-estudio-de-la-economía-underground",
+    "title": "Dark Web: De 0 a Experto",
+    "section": "1.1 Análisis y estudio de la economía underground",
+    "text": "1.1 Análisis y estudio de la economía underground\n\n\n\nLogo del curso\n\n\n\n\n\n\n\n\nNoteInformación del Curso\n\n\n\n\nDuración: 12 semanas (3 créditos)\nModalidad: Presencial / Virtual sincrónico\nRequisitos previos: Conocimientos básicos de redes, sistemas operativos y programación\nHerramientas: Tor Browser, Whonix, entornos virtualizados aislados\nAdvertencia: Todo el material se basa en análisis de fuentes abiertas. El acceso a herramientas reales requiere entornos controlados y con autorización legal.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#qué-aprenderás",
+    "href": "index.html#qué-aprenderás",
+    "title": "Dark Web: De 0 a Experto",
+    "section": "1.2 ¿Qué aprenderás?",
+    "text": "1.2 ¿Qué aprenderás?\nEn este curso explorarás el ecosistema oculto de la dark web desde una perspectiva técnica y de investigación, entendiendo cómo funcionan las herramientas maliciosas, cómo se comercializan y cómo defenderse de ellas.\n\n1.2.1 Competencias que desarrollarás:\n\nNavegar de forma segura por la dark web usando Tor y Whonix\nAnalizar herramientas del underground como loaders, stealers y ransomware\nEntender el modelo económico de la cibercriminalidad organizada\nAplicar técnicas de reverse engineering a malware real\nDesarrollar estrategias de defensa basadas en conocimiento de amenazas",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#comencemos",
+    "href": "index.html#comencemos",
+    "title": "Dark Web: De 0 a Experto",
+    "section": "1.3 ¡Comencemos!",
+    "text": "1.3 ¡Comencemos!\n\n“Conocer al enemigo es la mejor forma de prepararse para la batalla.”\n— Sun Tzu, adaptado al contexto de ciberseguridad",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "2  Sílabo - Dark Web: De 0 a Experto",
+    "section": "",
+    "text": "3 Sílabo de la Asignatura",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sílabo - Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#información-general",
+    "href": "syllabus.html#información-general",
+    "title": "2  Sílabo - Dark Web: De 0 a Experto",
+    "section": "3.1 1. Información General",
+    "text": "3.1 1. Información General\n\n\n\nCampo\nValor\n\n\n\n\nCarrera\nIngeniería en Sistemas/Computación\n\n\nCódigo\nDW101\n\n\nCréditos\n3\n\n\nHoras Teoría\n2 h/semana\n\n\nHoras Práctica\n2 h/semana\n\n\nHoras Autónomo\n3 h/semana\n\n\nPrerrequisitos\nRedes y Sistemas (RR001)\n\n\nDocente\nDiego Saavedra — dsaavedra@unl.edu.ec\n\n\nOffice Hours\nMiércoles 14:00-16:00",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sílabo - Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#descripción",
+    "href": "syllabus.html#descripción",
+    "title": "2  Sílabo - Dark Web: De 0 a Experto",
+    "section": "3.2 2. Descripción",
+    "text": "3.2 2. Descripción\nEste curso explora el ecosistema de la dark web desde una perseto técnica de investigación en ciberseguridad. Los estudiantes analizarán herramientas maliciosas, entenderán el modelo económico de la cibercriminalidad y desarrollarán habilidades para defender organizaciones contra amenazas emergentes. El enfoque combina teoría, análisis técnico y laboratorios controlados.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sílabo - Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#resultados-de-aprendizaje",
+    "href": "syllabus.html#resultados-de-aprendizaje",
+    "title": "2  Sílabo - Dark Web: De 0 a Experto",
+    "section": "3.3 3. Resultados de Aprendizaje",
+    "text": "3.3 3. Resultados de Aprendizaje\n\n3.3.1 Generales\n\n\n\n\n\n\n\n\nCódigo\nResultado\nNivel Bloom\n\n\n\n\nOG1\nAnalizar las técnicas de acceso a la dark web utilizando Tor y Whonix, verificando la protección de identidad\nAnalizar\n\n\nOG2\nConfigurar entornos de análisis de malware utilizando VMs aisladads, validando la seguridad del entorno\nAplicar\n\n\nOG3\nEvaluar el impacto de la economía underground sobre la seguridad organizacional, justificando recomendaciones de defensa\nEvaluar\n\n\nOG4\nDiseñar estrategias de detección basadas en técnicas de living-off-the-land, demuestrando eficacia\nCrear\n\n\n\n\n\n3.3.2 Específicos por Unidad\n\n\n\n\n\n\n\n\n\nUnidad\nCódigo\nResultado\nNivel Bloom\n\n\n\n\nU1\nOE1.1\nListar las diferencias entre web clara, deep web y dark web\nRecordar\n\n\nU1\nOE1.2\nExplicar el funcionamiento de la red Tor\nComprender\n\n\nU2\nOE2.1\nConfigurar un entorno Whonix para acceso seguro\nAplicar\n\n\nU3\nOE3.1\nAnalizar un proof of concept de Log4Shell\nAnalizar\n\n\nU4\nOE4.1\nIdentificar técnicas de evasión en loaders\nRecordar\n\n\nU5\nOE5.1\nExaminar el código de un information stealer\nAnalizar\n\n\nU6\nOE6.1\nComparar banking trojans Android vs Windows\nAnalizar\n\n\nU7\nOE7.1\nDesempacar malware usando técnicas estáticas\nAplicar\n\n\nU8\nOE8.1\nInterpretar tráfico C2 de Cobalt Strike\nComprender\n\n\nU9\nOE9.1\nDiagnosticar uso de LOLBins en un incidente\nAnalizar\n\n\nU10\nOE10.1\nEvaluar la seguridad de un locker de ransomware\nEvaluar\n\n\nU11\nOE11.1\nComparar técnicas de ransomware Linux vs Windows\nAnalizar\n\n\nU12\nOE12.1\nProponer mitigaciones para futuras amenazas\nCrear",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sílabo - Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#metodología",
+    "href": "syllabus.html#metodología",
+    "title": "2  Sílabo - Dark Web: De 0 a Experto",
+    "section": "3.4 4. Metodología",
+    "text": "3.4 4. Metodología\nEl curso sigue el enfoque ABACOM de aprendizaje activo con: - 60% práctica: Laboratorios con ejecución manual de comandos - 30% teoría: Conceptos, casos de estudio y análisis - 10% autónomo: Lecturas, ejercicios y proyectos\nLos laboratorios usan VMs completamente aisladadas. No se permite el copy-paste — cada comando se escribe manualmente para construir competencia real.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sílabo - Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#evaluación",
+    "href": "syllabus.html#evaluación",
+    "title": "2  Sílabo - Dark Web: De 0 a Experto",
+    "section": "3.5 5. Evaluación",
+    "text": "3.5 5. Evaluación\n\n3.5.1 Matriz de Evaluación\n\n\n\n\n\n\n\n\n\n\n\nResultado\nPond.\nInstrumento\nTipo\nCriterios\nSemana\n\n\n\n\nOE1.1-OE1.2\n5%\nLab 1: Introducción a Tor\nFormativa\nVM funcionando, acceso exitoso\n2\n\n\nOE2.1\n10%\nQuiz 2: OPSEC y Whonix\nSumativa\n≥ 70% correctas\n2\n\n\nOE3.1\n15%\nLab 3: Análisis de exploits\nFormativa\nIdentificación correcta de vulnerabilidades\n4\n\n\nOE4.1\n5%\nQuiz 4: Loaders\nFormativa\n≥ 70% correctas\n5\n\n\nOE5.1\n5%\nLab 5: Stealers\nFormativa\nExtracción correcta de IOCs\n6\n\n\nOE6.1\n5%\nQuiz 6: Banking trojans\nFormativa\n≥ 70% correctas\n7\n\n\nOE7.1\n10%\nLab 7: Unpacking\nFormativa\nPayload recuperado exitosamente\n8\n\n\nOE8.1\n10%\nQuiz 8: C2 Frameworks\nSumativa\n≥ 70% correctas\n9\n\n\nOE9.1\n5%\nLab 9: LOLBins\nFormativa\nTécnicas detectadas correctamente\n10\n\n\nOE10.1\n10%\nQuiz 10: Ransomware\nSumativa\n≥ 70% correctas\n11\n\n\nOE11.1\n5%\nLab 11: Linux ransomware\nFormativa\nAnálisis completado\n12\n\n\nOG1-OG4\n20%\nProyecto Final\nSumativa\nRúbrica adjunta\n13-15",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sílabo - Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#bibliografía",
+    "href": "syllabus.html#bibliografía",
+    "title": "2  Sílabo - Dark Web: De 0 a Experto",
+    "section": "3.6 6. Bibliografía",
+    "text": "3.6 6. Bibliografía\n\n3.6.1 Básica\n\nKaye, L. (2026). Dissecting the Dark Web. No Starch Press. ISBN: 978-1-7185-0461-5.\nSaello, J. (2023). Practical Malware Analysis. No Starch Press.\nKolias, V. et al. (2022). Cybersecurity Education: A Hands-On Approach. Springer.\n\n\n\n3.6.2 Complementaria\n\nMITRE ATT&CK Framework — https://attack.mitre.org\nNIST SP 800-83 - Guide to Malware Incident Prevention and Handling\nGitHub: DissectingTheDarkWeb - https://github.com/DissectingTheDarkWebBook",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sílabo - Dark Web: De 0 a Experto</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html",
+    "href": "unidades/unidad-01/index.html",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "",
+    "text": "4 Unidad 1: Fundamentos de la Dark Web",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#introducción",
+    "href": "unidades/unidad-01/index.html#introducción",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.1 1. Introducción",
+    "text": "4.1 1. Introducción\n¿Alguna vez te has preguntado cómo es posible que millones de datos robados se comercien en la dark web? ¿Cómo los cibercriminales acceden a estos mercados ocultos sin ser detectados? En 2021, el ataque a Colonial Pipeline puso en evidencia la existencia de este ecosistema criminal. Pero la dark web no es simplemente un “lugar oscuro” de internet; es una red compleja con sus propias reglas, herramientas y economía.\nEsta unidad te da la base para entender qué es la dark web, cómo se diferencia de internet que conocemos, y por qué es importante para la ciberseguridad.\n\n4.1.1 Conexión al contexto\nLa dark web representa el 3% restante del total de información en internet. Mientras que internet visible (surface web) es accesible mediante motores de búsqueda, la dark web requiere herramientas especializadas y está compuesta principalmente por servicios criminales.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#contenido-teórico",
+    "href": "unidades/unidad-01/index.html#contenido-teórico",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.2 2. Contenido Teórico",
+    "text": "4.2 2. Contenido Teórico\n\n4.2.1 2.1. La Web, el Deep Web y la Dark Web\nLos motores de búsqueda usan crawlers que indexan páginas. El archivo robots.txt indica qué contenido indexar. La deep web es el 95%+ de internet no indexado (passwords, bases deatos, paywalls). La dark web es el 3% restante: sitios .onion accesibles solo vía Tor.\n\n\n4.2.2 2.2. Onion Routing Detallado\nEl proceso usa 3 nodos con capas de encriptación:\n\n\n\n\n\n\nTipTres nodos de Tor\n\n\n\n\n\n\nNodo\nConoce\nNo conoce\n\n\n\n\nEntry Guard\nIP origen\nDestino final\n\n\nRelay Node\nNodo anterior/siguiente\nIP origen o destino\n\n\nExit Node\nDestino final\nIP origen\n\n\n\n\n\nComandos de instalación Tor Browser (Linux):\ntar -xf tor_browser_archive.tar.xz\n./start-tor-browser.desktop\n\n\n4.2.3 2.3. OPSEC esencial\n\nUsar Whonix-Gateway + Whonix-Workstation\nVPN encima de Tor para ocultar uso de Tor\nVM dedicada, nada de cuentas personales\nWipe/reimage fácil del sistema\n\n\n\n4.2.4 2.4. deepdarkCTI\nFuente para encontrar direcciones .onion: repositorio de inteligencia abierta.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#aplicaciones-prácticas",
+    "href": "unidades/unidad-01/index.html#aplicaciones-prácticas",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.3 3. Aplicaciones Prácticas",
+    "text": "4.3 3. Aplicaciones Prácticas\n\n4.3.1 Escenario 1: Verificación de anonimato\n# En Whonix\ncurl --socks5 127.0.0.1:9050 https://check.torproject.org/api/ip\n# Output: {\"IsExit\": true, \"IP\": \"[IP EXCLUSIVA TOR]\"}\n\n\n4.3.2 Escenario 2: Búsqueda de fuentes\ndeepdarkCTI provee URLs .onion verificables para investigación.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#aplicaciones-prácticas-1",
+    "href": "unidades/unidad-01/index.html#aplicaciones-prácticas-1",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.4 3. Aplicaciones Prácticas",
+    "text": "4.4 3. Aplicaciones Prácticas\n\n4.4.1 Escenario 1: Navegando foros ocultos\nUn investigador encuentra un foro .onion que vende credenciales robadas. ¿Cómo acceder sin exponer su identidad?\nRequisitos: Whonix (gateway + workstation), encuesta de amenazas, mecanismo de verificación.\n\n\n4.4.2 Escenario 2: Investigando precios de exploits\nUn analista ve varios exploits vendidos por $5,000 cada uno. ¿Qué indica esto sobre el mercado?\nAnálisis: Los precios revelan la demanda, la complejidad y el valor percibido.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#caso-de-estudio-el-modelo-cyber-kill-chain",
+    "href": "unidades/unidad-01/index.html#caso-de-estudio-el-modelo-cyber-kill-chain",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.5 4. Caso de Estudio: El modelo Cyber Kill Chain",
+    "text": "4.5 4. Caso de Estudio: El modelo Cyber Kill Chain\nEl libro utiliza el modelo Cyber Kill Chain de Lockheed Martin para estructurar el ataque:\n\n\n\n\n\n\n\n\nFase\nDescripción\nHerramientas en dark web\n\n\n\n\n1. Reconocimiento\nIdentificar objetivos\nHerramientas de escaneo\n\n\n2. Arma\nCrear vector de ataque\nExploits, phishing kits\n\n\n3. Entrega\nLlevar arma al objetivo\nPackers, loaders\n\n\n4. Explotación\nEjecutar código malicioso\nExploit builders\n\n\n5. Instalación\nPersistir en el sistema\nBackdoors, RATs\n\n\n6. Comando y Control\nComunicación con víctima\nC2 frameworks\n\n\n7. Acción en Objetivo\nRobo de datos, ransomware\nToolkits de exfiltración",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#errores-comunes",
+    "href": "unidades/unidad-01/index.html#errores-comunes",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.6 5. Errores Comunes",
+    "text": "4.6 5. Errores Comunes\n\n4.6.1 ❌ Misconception: “Tor hace todo el trabajo de anonimato”\nPor qué es incorrecto: Tor solo protege el tráfico de red. Si envías tu nombre real, cookies de sesión previas, o usas el mismo lenguaje de escritura, puedes ser identificado.\n✅ Comprensión correcta: Tor es una herramienta que debes combinar con buenas prácticas de OPSEC: VM aislada, nada de personal identifiable, comportamiento neutro.\n\n\n4.6.2 ❌ Misconception: “La dark web es solo para criminales”\nPor qué es incorrecto: Periodistas, activistas, y personas bajo regímenes opresivos usan la dark web para comunicación segura.\n✅ Comprensión correcta: La dark web es una herramienta de anonimato. Su uso depende de las intenciones del usuario.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#actividades",
+    "href": "unidades/unidad-01/index.html#actividades",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.7 6. Actividades",
+    "text": "4.7 6. Actividades\n\n4.7.1 Lecturas Asignadas\nObligatoria: Kaye, L. (2026). Dissecting the Dark Web, Capítulos 1-2, pp. 1-50.\nOpcional: “How Tor Works” — Electronic Frontier Foundation\n\n\n4.7.2 Ejercicios Prácticos\n\n4.7.2.1 Ejercicio 1: Identificar tipos de web\nObjetivo: Diferenciar entre surface, deep y dark web.\nPasos: 1. Lista 5 ejemplos de surface web (ej: wikipedia.org) 2. Lista 5 ejemplos de deep web (ej: gmail.com) 3. Explica por qué cada uno pertenece a su categoría\nVerifica: Las diferencias clave están claramente identificadas.\n\n\n4.7.2.2 Ejercicio 2: Simular onion routing\nObjetivo: Entender el concepto de enrutamiento en capas.\nPasos: 1. Escribe un mensaje de ejemplo 2. Encripta “manualmente” usando 3 claves diferentes (simulado) 3. Dibuena el flujo de cómo cada nodo lo recibe y lo pasa\nVerifica: El diagrama muestra claramente las capas y los nodos.\n\n\n\n4.7.3 Preguntas de Discusión\n\n¿Deben los gobiernos prohibir tecnologías como Tor? ¿Por qué o por qué no?\n¿Cómo afecta el anonimato en la dark web al modelo de responsabilidad en ciberseguridad?\n\n\n\n4.7.4 Auto-Evaluación\n\n\n4.7.5 Preguntas de Verificación\n\nMCQ: ¿Cuál capa del modelo OSI maneja la encriptación para Tor?\n\nFísica\nEnlace\nRed\nTransporte\n\n\nRespuesta: d) Transporte. Las conexiones TLS protegen la capa de transporte.\n\nVerdadero/Falso: La dark web representa más del 50% del contenido de internet.\n\nFalso. La dark web es menos del 3% del total.\n\nCorto: ¿Qué significa “onion routing” en una frase?\n\nRespuesta: Enrutamiento en capas donde cada nodo solo conoce su segmento de la ruta.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#bibliografía",
+    "href": "unidades/unidad-01/index.html#bibliografía",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.8 7. Bibliografía",
+    "text": "4.8 7. Bibliografía\n\n4.8.1 Principal\n\nKaye, L. (2026). Dissecting the Dark Web. No Starch Press. ISBN: 978-1-7185-0461-5.\n\n\n\n4.8.2 Papeles\n\nAnderson, R. (2021). “The Tor Network: A Survey”. Journal of Cybersecurity, 7(2). DOI: 10.1093/cybsec/tyab008\n\n\n\n4.8.3 Estándares\n\nRFC 4949 — Internet Security Glossary\n\n\n\n4.8.4 Digital\n\nTor Project Documentation\nMITRE ATT&CK - Initial Access",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/index.html#tareas-anti-ia",
+    "href": "unidades/unidad-01/index.html#tareas-anti-ia",
+    "title": "3  Fundamentos de la Dark Web",
+    "section": "4.9 8. Tareas Anti-IA",
+    "text": "4.9 8. Tareas Anti-IA\n\n4.9.1 Tarea 1: Dibujo manual\nTarea: En papel, dibuja el flujo de onion routing con 3 nodos. Incluye: - Dirección IP de origen - Capas de encriptación - Qué ve cada nodo\nRegla: Sin herramientas digitales. Toma foto y sube. Calificación: completitud, etiquetas, precisión.\n\n\n4.9.2 Tarea 2: Explicación oral\nTarea: Graba un video de 3 minutos explicando la diferencia entre deep web y dark web como si enseñaras a un compañero.\nRequerimientos: Usa analogías, responde 1 pregunta adicional del instructor.\nEvaluación: Claridad, corrección, capacidad de responder preguntas.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html",
+    "href": "unidades/unidad-01/lab-01.html",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "",
+    "text": "5 Laboratorio 1: Introducción a Tor y Whonix",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#objetivo",
+    "href": "unidades/unidad-01/lab-01.html#objetivo",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.1 Objetivo",
+    "text": "5.1 Objetivo\nConfigurar y verificar un entorno Whonix seguro para exploración de la dark web, entendiendo cada componente del sistema.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#requisitos-previos",
+    "href": "unidades/unidad-01/lab-01.html#requisitos-previos",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.2 Requisitos previos",
+    "text": "5.2 Requisitos previos\n\nVirtualBox o VMware instalado\n8GB RAM mínimo disponible\nConexión a internet estable",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#paso-1-descargar-whonix",
+    "href": "unidades/unidad-01/lab-01.html#paso-1-descargar-whonix",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.3 Paso 1: Descargar Whonix",
+    "text": "5.3 Paso 1: Descargar Whonix\n\n5.3.1 1.1. Identificar fuentes oficiales\nObjetivo: Encontrar la página oficial de Whonix.\nPasos manuales: 1. Abre una terminal en tu máquina host 2. Ejecuta: nslookup whonix.org (NO copiar-pegar) 3. Verifica que la IP resuelta coincida con documentación oficial\nOutput esperado:\nServer:     8.8.8.8\nAddress:    8.8.8.8#53\n\nNon-authoritative answer:\nName:   whonix.org\nAddress: [IP REAL]\n\n\n5.3.2 1.1. DeepdarkCTI para URLs .onion\nObjetivo: Identificar fuentes legítimas de URLs de dark web.\nPasos manuales: 1. Busca “deepdarkCTI github” en Google (desde VM limpia) 2. Identifica el repositorio oficial 3. Lista URLs .onion verificables en el README\n\n\n5.3.3 1.2. Verificar firma GPG\nObjetivo: Confirmar autenticidad de la ISO de Whonix.\nPasos manuales: 1. Descarga el archivo .asc de firma 2. Importa la clave: gpg --recv-keys [clave oficial] 3. Verifica: gpg --verify [archivo.asc]\nOutput esperado:\ngpg: Good signature from \"Whonix Release Signing Key\"",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#paso-2-configurar-whonix-gateway",
+    "href": "unidades/unidad-01/lab-01.html#paso-2-configurar-whonix-gateway",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.4 Paso 2: Configurar Whonix Gateway",
+    "text": "5.4 Paso 2: Configurar Whonix Gateway\n\n5.4.1 2.1. Crear red host-only\nObjetivo: Aislar la VM de redes externas.\nPasos manuales:\n# En host (macOS/Linux)\nVBoxManage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1\n\n\n5.4.2 2.2. Configurar interfaz\nEn VirtualBox: 1. Configura Whonix-Gateway con Adaptador 1: NAT 2. Configura Whonix-Workstation con Adaptador 1: Host-only",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#paso-3-verificar-funcionamiento-de-tor",
+    "href": "unidades/unidad-01/lab-01.html#paso-3-verificar-funcionamiento-de-tor",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.5 Paso 3: Verificar funcionamiento de Tor",
+    "text": "5.5 Paso 3: Verificar funcionamiento de Tor\n\n5.5.1 3.1. Chequear servicio Tor\nObjetivo: Confirmar que Tor está corriendo.\nPasos manuales:\n# En Whonix Gateway\nsudo systemctl status tor@default\nOutput esperado:\n● tor@default.service - Anonymizing overlay network\n   Loaded: loaded\n   Active: active (running)\n\n\n5.5.2 3.2. Verificar IP pública\nObjetivo: Confirmar anonimato.\nPasos manuales:\n# En Whonix Workstation\ncurl --socks5-hostname 127.0.0.1:9050 https://check.torproject.org/api/ip\nOutput esperado:\n{\"IsExit\": true, \"IP\": \"[IP DE SALIDA TOR]\"}",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#paso-4-navegador-tor-browser",
+    "href": "unidades/unidad-01/lab-01.html#paso-4-navegador-tor-browser",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.6 Paso 4: Navegador Tor Browser",
+    "text": "5.6 Paso 4: Navegador Tor Browser\n\n5.6.1 4.1. Configuración segura\nVerifica en Tor Browser: 1. Security Settings → Safest (máximo) 2. No instalar plugins 3. No guardar contraseñas 4. No descargar archivos ejecutables\n\n\n5.6.2 4.2. Acceso a servicio de prueba\nObjetivo: Verificar navegación segura.\nPasos manuales: 1. Navega a http://check.torproject.org 2. Verifica mensaje “Congratulations. This browser is configured to use Tor.” 3. Toma captura de pantalla (solo la página de verificación)",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#verificación-final",
+    "href": "unidades/unidad-01/lab-01.html#verificación-final",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.7 Verificación Final",
+    "text": "5.7 Verificación Final\n\n\n\n\n\n\n\n\nCheckpoint\nComando\nResultado esperado\n\n\n\n\n1\nsystemctl status tor@default\nactive (running)\n\n\n2\ncurl --socks5 127.0.0.1:9050 https://ipinfo.io/ip\nIP diferente a tu real\n\n\n3\nTor Browser → check.torproject.org\nMensaje de confirmación",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/lab-01.html#rubrica-de-laboratorio",
+    "href": "unidades/unidad-01/lab-01.html#rubrica-de-laboratorio",
+    "title": "4  Laboratorio 1: Introducción a Tor y Whonix",
+    "section": "5.8 Rubrica de laboratorio",
+    "text": "5.8 Rubrica de laboratorio\n\n\n\n\n\n\n\n\n\nCriterio\nExcelente (5)\nBueno (3)\nNecesita Mejora (1)\n\n\n\n\nSeguridad OPSEC\nTodos los pasos seguros\n1-2 riesgos menores\nMultiple fallos de OPSEC\n\n\nEjecución manual\nTodo ejecutado manualmente\nAlgunos copy-paste\nMucha automatización\n\n\nDocumentación\nScreenshots + notas claras\nScreenshots básicos\nIncompleto\n\n\nVerificación\nTodas las IPs verificadas\nAlgunas verificadas\nNo verificado",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Laboratorio 1: Introducción a Tor y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/quiz-01.html",
+    "href": "unidades/unidad-01/quiz-01.html",
+    "title": "5  Quiz 1: Fundamentos de la Dark Web",
+    "section": "",
+    "text": "6 Quiz 1: Fundamentos de la Dark Web",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Quiz 1: Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/quiz-01.html#instrucciones",
+    "href": "unidades/unidad-01/quiz-01.html#instrucciones",
+    "title": "5  Quiz 1: Fundamentos de la Dark Web",
+    "section": "6.1 Instrucciones",
+    "text": "6.1 Instrucciones\nResponde las siguientes preguntas. Muestra tu trabajo donde sea necesario. Usa tus propias palabras.",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Quiz 1: Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/quiz-01.html#preguntas",
+    "href": "unidades/unidad-01/quiz-01.html#preguntas",
+    "title": "5  Quiz 1: Fundamentos de la Dark Web",
+    "section": "6.2 Preguntas",
+    "text": "6.2 Preguntas\n\n6.2.1 1. Desarrollo (Bloom: Comprender)\nExplica en 3-5 oraciones la diferencia técnica entre el Surface Web y la Dark Web. Incluye: - Cómo se indexa cada uno - Qué software se requiere para acceder\nPuntos: 10\n\n\n\n6.2.2 2. Opción múltiple (Bloom: Recordar)\n¿Cuántos nodos intermedios procesa el tráfico en la red Tor por defecto?\n\n1 nodo (entrada única)\n3 nodos (entrada, medio, salida)\n5 nodos (configuración máxima)\nEl número varia según carga\n\n\nRespuesta:\n\n\n\n\n6.2.3 3. Verdadero/Falso (Bloom: Evaluar)\nLa deep web contiene exclusivamente contenido ilegal y está oculta por malas intenciones.\n\nRespuesta:\nJustificación:\n\n\n\n\n6.2.4 4. Análisis (Bloom: Analizar)\nDado el siguiente output de curl usando un proxy Tor:\n{\"IsExit\": false, \"IP\": \"185.220.101.1\"}\n¿Qué puedes inferir? - ¿Estás usando Tor? - ¿Cuál es el IP de salida? - ¿Qué indica “IsExit: false”?\nPuntos: 10\n\n\n\n6.2.5 5. Comando (Bloom: Aplicar)\nEscribe el comando para verificar tu IP usando el proxy SOCKS de Tor. No copies el ejemplo del laboratorio — escribe desde cero.\nRespuesta:\n\n\n\n6.2.6 6. Diseño (Bloom: Crear)\nDibuena (en papel) el flujo de información desde tu navegador hasta un servidor .onion. Etiqueta: - Cliente - Entry guard - Relay nodes - Exit node (si aplica) - Servidor destino\nPuntos: 10",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Quiz 1: Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-01/quiz-01.html#rubrica-rápida",
+    "href": "unidades/unidad-01/quiz-01.html#rubrica-rápida",
+    "title": "5  Quiz 1: Fundamentos de la Dark Web",
+    "section": "6.3 Rubrica rápida",
+    "text": "6.3 Rubrica rápida\n\n\n\nPregunta\nPuntos\n\n\n\n\n1\n10\n\n\n2\n5\n\n\n3\n5\n\n\n4\n10\n\n\n5\n5\n\n\n6\n10\n\n\nTotal\n45\n\n\n\nPassing score: 32/45 (71%)",
+    "crumbs": [
+      "Unidad 1: Fundamentos de la Dark Web",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Quiz 1: Fundamentos de la Dark Web</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html",
+    "href": "unidades/unidad-02/index.html",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "",
+    "text": "7 Unidad 2: Acceso Seguro y OPSEC",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html#introducción",
+    "href": "unidades/unidad-02/index.html#introducción",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "7.1 1. Introducción",
+    "text": "7.1 1. Introducción\nAcceder a la dark web sin el anonimato adecuado es como entrar a una guerra sin equipo de protección. Las amenazas incluyen rastreo de IP, malware, y hasta intervención legal. Esta unidad te enseña a protegerte.",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html#contenido-teórico",
+    "href": "unidades/unidad-02/index.html#contenido-teórico",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "7.2 2. Contenido Teórico",
+    "text": "7.2 2. Contenido Teórico\n\n7.2.1 2.1. Principios de OPSEC\nOperational Security (OPSEC) es la disciplina de proteger información sensible. Los principios clave:\n\nSeparación: Ni tus datos personales ni tu comportamiento normal en la dark web\nComportamiento neutral: Escribe de forma diferente, actúa de forma diferente\nInfraestructura dedicada: VMs limpias, no tu máquina principal\n\n\n\n\n\n\n\nWarning⚠️ Preguntas que nunca debes responder en dark web\n\n\n\n\n“¿Dónde vives?”\n“¿Cuál es tu trabajo real?”\n“¿Qué lenguaje escribo normalmente?”\n“¿Qué hora es en mi zona horaria?”\n\n\n\n\n\n7.2.2 2.2. Arquitectura Whonix\nWhonix tiene dos VMs:\n\n\n\nComponente\nFunción\nProtección\n\n\n\n\nGateway\nEnrutamiento Tor\nAísla tráfico\n\n\nWorkstation\nNavegador y herramientas\nSin IP directa\n\n\n\n[Internet] → [Gateway Whonix] → [Workstation Whonix] → [Usuario]\n\n\n7.2.3 2.3. Herramientas de defensa\n\nVM isolation: VirtualBox con red host-only\nNetwork fingerprinting protection: User agent randomizado\nTiming attacks: No patrones predecibles\nCorrelation resistance: No doble uso de sesión",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html#aplicaciones-prácticas",
+    "href": "unidades/unidad-02/index.html#aplicaciones-prácticas",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "7.3 3. Aplicaciones Prácticas",
+    "text": "7.3 3. Aplicaciones Prácticas\n\n7.3.1 Escenario: Investigador identificado\nUn investigador fue identificado porque: 1. Usó su frase típica en foros 2. Visitó sitios a la misma hora todos los días 3. Usó su navegador principal con Tor\n\n\n7.3.2 Escenario: Setup seguro\nUn analista correcto: 1. VM completamente nueva 2. Comportamiento impredecible 3. No personaliza nada",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html#errores-comunes",
+    "href": "unidades/unidad-02/index.html#errores-comunes",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "7.4 4. Errores Comunes",
+    "text": "7.4 4. Errores Comunes\n\n7.4.1 ❌ Misconception: “Whonix es suficiente solito”\n¿Por qué es falso?: Whonix protege red, pero si usas mismo idioma, horarios, o patrones, la correlación es posible.\n\n\n7.4.2 ❌ Misconception: “Puedo usar mi máquina para esto”\n¿Por qué es falso?: Cualquier instalación previa, cookies, o configuraciones son huellas.",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html#actividades",
+    "href": "unidades/unidad-02/index.html#actividades",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "7.5 5. Actividades",
+    "text": "7.5 5. Actividades\n\n7.5.1 Lectura\n\nKaye, L. (2026). Dissecting the Dark Web, Sección 1.2-1.5.\n\n\n\n7.5.2 Ejercicios\n\n7.5.2.1 Ejercicio 1: Matriz de riesgos\nLista 5 riesgos al acceder a dark web y propone mitigación.\n\n\n7.5.2.2 Ejercicio 2: Simulación de timeline\nCrea un horario impredecible para actividades de investigación.",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html#auto-evaluación",
+    "href": "unidades/unidad-02/index.html#auto-evaluación",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "7.6 6. Auto-Evaluación",
+    "text": "7.6 6. Auto-Evaluación\n\nDefinir: ¿Qué significa operational security?\nExplicar: ¿Por qué dos VMs en Whonix?\nIdentificar: Nombra 3 errores de OPSEC comunes.",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/index.html#bibliografía",
+    "href": "unidades/unidad-02/index.html#bibliografía",
+    "title": "6  Acceso Seguro y OPSEC",
+    "section": "7.7 7. Bibliografía",
+    "text": "7.7 7. Bibliografía\n\nKaye, L. (2026). Dissecting the Dark Web, Capítulo 1.\nNSA. (2020). OPSEC Guidelines. DoD 5200.28.",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acceso Seguro y OPSEC</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/lab-02.html",
+    "href": "unidades/unidad-02/lab-02.html",
+    "title": "7  Laboratorio 2: Configuración Whonix Avanzada",
+    "section": "",
+    "text": "8 Laboratorio 2: Configuración Whonix Avanzada",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laboratorio 2: Configuración Whonix Avanzada</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/lab-02.html#objetivo",
+    "href": "unidades/unidad-02/lab-02.html#objetivo",
+    "title": "7  Laboratorio 2: Configuración Whonix Avanzada",
+    "section": "8.1 Objetivo",
+    "text": "8.1 Objetivo\nConfigurar Whonix con reglas de firewall adicionales y verificar la protección contra correlation attacks.",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laboratorio 2: Configuración Whonix Avanzada</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/lab-02.html#paso-1-configurar-firewall-host",
+    "href": "unidades/unidad-02/lab-02.html#paso-1-configurar-firewall-host",
+    "title": "7  Laboratorio 2: Configuración Whonix Avanzada",
+    "section": "8.2 Paso 1: Configurar firewall host",
+    "text": "8.2 Paso 1: Configurar firewall host\n\n8.2.1 1.1. Reglas iptables\n# En host (macOS/Linux)\nsudo iptables -A OUTPUT -o lo -j ACCEPT\nsudo iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT\nsudo iptables -A OUTPUT -j DROP",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laboratorio 2: Configuración Whonix Avanzada</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/lab-02.html#paso-2-configurar-whonix-gateway",
+    "href": "unidades/unidad-02/lab-02.html#paso-2-configurar-whonix-gateway",
+    "title": "7  Laboratorio 2: Configuración Whonix Avanzada",
+    "section": "8.3 Paso 2: Configurar Whonix Gateway",
+    "text": "8.3 Paso 2: Configurar Whonix Gateway\n\n8.3.1 2.1. Editar configuración Tor\n# En Whonix Gateway\nsudo nano /etc/tor/torrc\n# Agregar:\n# DisableNetworkTime=true\n# NewCircuitPeriod=600",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laboratorio 2: Configuración Whonix Avanzada</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/lab-02.html#paso-3-verificar-aislamiento",
+    "href": "unidades/unidad-02/lab-02.html#paso-3-verificar-aislamiento",
+    "title": "7  Laboratorio 2: Configuración Whonix Avanzada",
+    "section": "8.4 Paso 3: Verificar aislamiento",
+    "text": "8.4 Paso 3: Verificar aislamiento\n\n8.4.1 3.1. Test de DNS leak\n# En Workstation\nnslookup google.com\n# Debe fallar o resolver vía Tor",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laboratorio 2: Configuración Whonix Avanzada</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/lab-02.html#verificación",
+    "href": "unidades/unidad-02/lab-02.html#verificación",
+    "title": "7  Laboratorio 2: Configuración Whonix Avanzada",
+    "section": "8.5 Verificación",
+    "text": "8.5 Verificación\n\n\n\nCheckpoint\nMétodo\nResultado\n\n\n\n\nFirewall\niptables -L\nReglas aplicadas\n\n\nDNS leak\nnslookup\nSin leak\n\n\nIP pública\nTor check\nIP diferente",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laboratorio 2: Configuración Whonix Avanzada</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/lab-02.html#rubrica",
+    "href": "unidades/unidad-02/lab-02.html#rubrica",
+    "title": "7  Laboratorio 2: Configuración Whonix Avanzada",
+    "section": "8.6 Rubrica",
+    "text": "8.6 Rubrica\n\n\n\nCriterio\n5 pts\n3 pts\n1 pt\n\n\n\n\nConfiguración\nTodo correcto\n2 errores menores\nErrores críticos\n\n\nVerificación\n4/4 checkpoints\n2-3 checkpoints\n&lt;2 checkpoints\n\n\nDocumentación\nCompleta\nBásica\nIncompleta",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Laboratorio 2: Configuración Whonix Avanzada</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/quiz-02.html",
+    "href": "unidades/unidad-02/quiz-02.html",
+    "title": "8  Quiz 2: OPSEC y Whonix",
+    "section": "",
+    "text": "9 Quiz 2: OPSEC y Whonix",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz 2: OPSEC y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-02/quiz-02.html#preguntas",
+    "href": "unidades/unidad-02/quiz-02.html#preguntas",
+    "title": "8  Quiz 2: OPSEC y Whonix",
+    "section": "9.1 Preguntas",
+    "text": "9.1 Preguntas\n\n9.1.1 1. Desarrollo\n¿Por qué es crítico usar una VM completamente nueva para navegar dark web?\n\n\n9.1.2 2. Opción múltiple\n¿Cuántas VMs tiene Whonix por defecto?\n\n1\n\n2\n\n3\n\nDepende de la instalación\n\n\n\n9.1.3 3. Verdadero/Falso\nLos horarios predecibles de navegación pueden ser una señal de identificación.\n\n\n9.1.4 4. Análisis\nDado este log de firewall:\nDROP tcp -- anywhere 192.168.1.100\nACCEPT tcp -- anywhere 10.152.152.10\n¿Qué política de red se está aplicando?\n\n\n9.1.5 5. Comando\nEscribe el comando para verificar el estado del servicio Tor.\n\nPuntuación total: 30 pts | Passing: 21 pts (70%)",
+    "crumbs": [
+      "Unidad 2: Acceso Seguro y OPSEC",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Quiz 2: OPSEC y Whonix</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html",
+    "href": "unidades/unidad-03/index.html",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "",
+    "text": "10 Unidad 3: Vulnerabilidades, Exploits y Acceso Inicial",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html#introducción",
+    "href": "unidades/unidad-03/index.html#introducción",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "10.1 1. Introducción",
+    "text": "10.1 1. Introducción\nLa dark web funciona como un mercado donde el producto más valioso es el acceso. Los Initial Access Brokers (IABs) venden puertas de entrada a organizaciones, mientras que exploits como Log4Shell se comercializan en paquetes listos para usar. Esta unidad te enseña a entender estos productos desde una perspectiva defensiva.",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html#contenido-teórico",
+    "href": "unidades/unidad-03/index.html#contenido-teórico",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "10.2 2. Contenido Teórico",
+    "text": "10.2 2. Contenido Teórico\n\n10.2.1 2.1. Initial Access Brokers (IABs)\nLos IABs venden acceso verificado con precios basados en: - Tamaño de la organización - Tipo de acceso (VPN, RDP, dominio) - Información MFA incluida\n\n\n\nTipo de acceso\nPrecio típico\nPrecio con MFA\n\n\n\n\nPersonal\n$10-$100\n$50-$200\n\n\nCorporativo pequeño\n$100-$500\n$300-$800\n\n\nCredenciales dominio\n$500-$2000\n$1000-$5000\n\n\nAWS/GCP/Azure\n$1000-$5000\n$2000-$10000\n\n\n\n\n\n10.2.2 2.2. Checkers vs Brute-Forcers\n\n\n\nHerramienta\nFunción\nEjemplo del libro\n\n\n\n\nCheckers\nVerifica credenciales existentes\nTMChecker\n\n\nBrute-Forcers\nFuerza bruta para nuevas\nForti VPN Bruter\n\n\n\nLos checkers automatizan la verificación: - 15 millón de credenciales sin verificar = $400-$700 - 7,000 credenciales verificadas (corporativas + MFA) = $1000+\n\n\n10.2.3 2.3. Exploit Builders\nNo crean exploits nuevos — son mecanismos de entrega: - HTML-based phishing - LNK/URL attachments - Malvertising integrado\nNota del libro: Más baratos que exploits reales, requieren menos skills técnicos.",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html#caso-de-estudio-tmchecker",
+    "href": "unidades/unidad-03/index.html#caso-de-estudio-tmchecker",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "10.3 3. Caso de Estudio: TMChecker",
+    "text": "10.3 3. Caso de Estudio: TMChecker\nTMChecker verifica credenciales corporativas:\n\nEntrada: Lista de correos/usuarios\nProceso: Login automatizado a OWA/Office365\nSalida: Archivo con credenciales válidas\n\n\n10.3.1 Análisis técnico\n# Pseudocódigo del proceso de verificación\ndef verify_credentials(username, password):\n    session = requests.Session()\n    response = session.post(\n        \"https://outlook.office365.com/owa/\",\n        data={\"username\": username, \"password\": password}\n    )\n    if \"authenticated\" in response.text:\n        return True\n    return False\n\n\n10.3.2 Señales de detección\n\nMúltiples logins fallidos seguidos\nUser-Agent idéntico en todas las peticiones\nHorarios predecibles de ataque",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html#errores-comunes",
+    "href": "unidades/unidad-03/index.html#errores-comunes",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "10.4 4. Errores Comunes",
+    "text": "10.4 4. Errores Comunes\n\n10.4.1 ❌ Misconception: “Los exploits son imposibles de usar”\n¿Por qué es falso?: Los IABs empaquetan exploits con instrucciones paso a paso. Baja la barrera de entrada.\n\n\n10.4.2 ❌ Misconception: “Phishing es ineficaz”\n¿Por qué es falso?: El 30% de los ataques exitosos comienzan con phishing. Es rentable.",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html#actividades",
+    "href": "unidades/unidad-03/index.html#actividades",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "10.5 5. Actividades",
+    "text": "10.5 5. Actividades\n\n10.5.1 Lectura\n\nKaye, L. (2026). Dissecting the Dark Web, Capítulo 2.\n\n\n\n10.5.2 Ejercicios\n\n10.5.2.1 Ejercicio 1: Análisis de CVE\nSelecciona Log4Shell y explica: - Vector de ataque - Condiciones necesarias - Mitigación\n\n\n10.5.2.2 Ejercicio 2: Identificar IoCs\nDado un log de autenticación, identifica 3 indicadores de TMChecker.",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html#auto-evaluación",
+    "href": "unidades/unidad-03/index.html#auto-evaluación",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "10.6 6. Auto-Evaluación",
+    "text": "10.6 6. Auto-Evaluación\n\nListar: 5 tipos de acceso vendidos por IABs\nExplicar: Cómo verifica un checker las credenciales\nAnalizar: Diferencias entre Zphisher y Greatness kit",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/index.html#bibliografía",
+    "href": "unidades/unidad-03/index.html#bibliografía",
+    "title": "9  Vulnerabilidades, Exploits y Acceso Inicial",
+    "section": "10.7 7. Bibliografía",
+    "text": "10.7 7. Bibliografía\n\nMITRE ATT&CK — Initial Access Tactics\nKaye, L. (2026). Dissecting the Dark Web, Capítulo 2.\nNIST NVD — CVE database.",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Vulnerabilidades, Exploits y Acceso Inicial</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/lab-03.html",
+    "href": "unidades/unidad-03/lab-03.html",
+    "title": "10  Laboratorio 3: Análisis de Credenciales y Checkers",
+    "section": "",
+    "text": "11 Laboratorio 3: Análisis de Credenciales y Checkers",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Laboratorio 3: Análisis de Credenciales y Checkers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/lab-03.html#objetivo",
+    "href": "unidades/unidad-03/lab-03.html#objetivo",
+    "title": "10  Laboratorio 3: Análisis de Credenciales y Checkers",
+    "section": "11.1 Objetivo",
+    "text": "11.1 Objetivo\nAnalizar el proceso de TMChecker para verificación de credenciales corporativas.",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Laboratorio 3: Análisis de Credenciales y Checkers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/lab-03.html#paso-1-identificar-servicios-objetivo",
+    "href": "unidades/unidad-03/lab-03.html#paso-1-identificar-servicios-objetivo",
+    "title": "10  Laboratorio 3: Análisis de Credenciales y Checkers",
+    "section": "11.2 Paso 1: Identificar servicios objetivo",
+    "text": "11.2 Paso 1: Identificar servicios objetivo\n\n11.2.1 1.1. Servicios corporativos comunes\n\n\n\nServicio\nPuerto\nProtocolo\n\n\n\n\nOWA/Office365\n443\nHTTPS\n\n\nVPN SSL\n443\nHTTPS\n\n\nRDP\n3389\nTCP\n\n\nSSH\n22\nTCP",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Laboratorio 3: Análisis de Credenciales y Checkers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/lab-03.html#paso-2-identificar-señales-de-tmchecker",
+    "href": "unidades/unidad-03/lab-03.html#paso-2-identificar-señales-de-tmchecker",
+    "title": "10  Laboratorio 3: Análisis de Credenciales y Checkers",
+    "section": "11.3 Paso 2: Identificar señales de TMChecker",
+    "text": "11.3 Paso 2: Identificar señales de TMChecker\n\n11.3.1 2.1. User-Agent estándar\n# TMChecker usa User-Agent predecible\ncurl -H \"User-Agent: TMChecker/1.0\" target.com/login\n\n\n11.3.2 2.2. Patrones de login\n# Secuencial: user1, user2, user3...\n# O usando lista predefinida\n# Siempre mismo User-Agent\n# Siempre mismo timing entre requests",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Laboratorio 3: Análisis de Credenciales y Checkers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/lab-03.html#paso-3-identificar-en-logs",
+    "href": "unidades/unidad-03/lab-03.html#paso-3-identificar-en-logs",
+    "title": "10  Laboratorio 3: Análisis de Credenciales y Checkers",
+    "section": "11.4 Paso 3: Identificar en logs",
+    "text": "11.4 Paso 3: Identificar en logs\n\n11.4.1 3.1. Buscar patrones\n# IPs múltiples, mismo User-Agent\nawk -F'\"' '/Login/{print $6}' access.log | sort | uniq -c",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Laboratorio 3: Análisis de Credenciales y Checkers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/lab-03.html#verificación",
+    "href": "unidades/unidad-03/lab-03.html#verificación",
+    "title": "10  Laboratorio 3: Análisis de Credenciales y Checkers",
+    "section": "11.5 Verificación",
+    "text": "11.5 Verificación\n\n\n\nCheckpoint\nResultado\n\n\n\n\nUser-Agent\nIdentificado\n\n\nTiming\nAnalizado\n\n\nIP patterns\nDetectado",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Laboratorio 3: Análisis de Credenciales y Checkers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/quiz-03.html",
+    "href": "unidades/unidad-03/quiz-03.html",
+    "title": "11  Quiz 3: Vulnerabilidades, Exploits y Credenciales",
+    "section": "",
+    "text": "12 Quiz 3: Vulnerabilidades, Exploits y Credenciales",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Quiz 3: Vulnerabilidades, Exploits y Credenciales</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-03/quiz-03.html#preguntas",
+    "href": "unidades/unidad-03/quiz-03.html#preguntas",
+    "title": "11  Quiz 3: Vulnerabilidades, Exploits y Credenciales",
+    "section": "12.1 Preguntas",
+    "text": "12.1 Preguntas\n\n12.1.1 1. Desarrollo\nExplica la diferencia entre un checker y un brute-forcer con un ejemplo de cada uno.\n\n\n12.1.2 2. Opción múltiple\n¿Cuál es el precio típico de credenciales corporativas VERIFICADAS (con MFA) según el libro?\n\n$100-$500\n\n$500-$1500\n\n$1000-$5000\n\n$1500-$3000\n\n\n\n12.1.3 3. Verdadero/Falso\nLos exploit builders crean vulnerabilidades nuevas desde cero.\n\n\n12.1.4 4. Análisis\nSi ves credenciales de 7,000 corporativas a $1500+ y 15 millones de no verificadas a $700, ¿qué indica el precio diferencial?\n\n\n12.1.5 5. Comando\nEscribe el command para identificar User-Agent repetido en logs.\n\n\n12.1.6 6. Diseño\n¿Qué diferencia hay entre un exploit real y un exploit builder? (máx 3 líneas)",
+    "crumbs": [
+      "Unidad 3: Vulnerabilidades y Exploits",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Quiz 3: Vulnerabilidades, Exploits y Credenciales</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/index.html",
+    "href": "unidades/unidad-04/index.html",
+    "title": "12  Técnicas de Entrega de Malware",
+    "section": "",
+    "text": "13 Unidad 4: Técnicas de Entrega de Malware",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Técnicas de Entrega de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/index.html#introducción",
+    "href": "unidades/unidad-04/index.html#introducción",
+    "title": "12  Técnicas de Entrega de Malware",
+    "section": "13.1 1. Introducción",
+    "text": "13.1 1. Introducción\nDespués de obtener acceso, el atacante necesita entregar el payload. Los loaders son el primer estadio de ejecución; los botnets proporcionan infraestructura masiva. Esta unidad analiza técnicas reales de entrega.",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Técnicas de Entrega de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/index.html#loaders",
+    "href": "unidades/unidad-04/index.html#loaders",
+    "title": "12  Técnicas de Entrega de Malware",
+    "section": "13.2 2. Loaders",
+    "text": "13.2 2. Loaders\n\n13.2.1 2.1. Qué es un loader\nUn loader asegura la entrega del payload. Pueden incluir: - Keylogging - Screenshots - Ejecución de comandos - Funciones de discovery\n\n\n13.2.2 2.2. SmokeLoader (desde 2013)\nTécnicas de evasión identificadas: - Opaque predicates: Expresiones que siempre son true/false pero difíciles de determinar - Function/string obfuscation: Encripta funciones y strings para ocultar propósito - Anti-hooking: Detecta y evita hooking de sandboxes - Anti-debugging: Chequea flags de debugging (BeingDebugged) - Hash-based import resolution: Oculta funciones importadas usando hashes\nPrecio en dark web: ~$2,500 por builder que genera HTA files\n\n\n13.2.3 2.3. BunnyLoader\nCaracterísticas: - File download y execution - Anti-analysis técniques (sleep, delays) - Modular con plugins - Registry persistence",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Técnicas de Entrega de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/index.html#botnets",
+    "href": "unidades/unidad-04/index.html#botnets",
+    "title": "12  Técnicas de Entrega de Malware",
+    "section": "13.3 3. Botnets",
+    "text": "13.3 3. Botnets\n\n13.3.1 3.1. Mirai Family\nMirai (2016) revolucionó el DDoS: - Scanning: Telnet en puertos 23/2323 - Brute force: Credenciales por defecto - Infection: Binario MIPS/ARM\n\n\n13.3.2 3.2. CosaNostra Botnet\nBotnet moderna con: - C2 via Tor - DDoS + crypto mining - Auto-update",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Técnicas de Entrega de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/index.html#ejercicios",
+    "href": "unidades/unidad-04/index.html#ejercicios",
+    "title": "12  Técnicas de Entrega de Malware",
+    "section": "13.4 4. Ejercicios",
+    "text": "13.4 4. Ejercicios\n\nAnaliza un loader estático con strings y entropy\nIdentifica señales de Mirai en logs de red",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Técnicas de Entrega de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/index.html#auto-evaluación",
+    "href": "unidades/unidad-04/index.html#auto-evaluación",
+    "title": "12  Técnicas de Entrega de Malware",
+    "section": "13.5 5. Auto-Evaluación",
+    "text": "13.5 5. Auto-Evaluación\n\n¿Qué hace un loader?\nMétodos anti-debug de SmokeLoader\nProtocolo de infección de Mirai",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Técnicas de Entrega de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/lab-04.html",
+    "href": "unidades/unidad-04/lab-04.html",
+    "title": "13  Laboratorio 4: Análisis de Loaders",
+    "section": "",
+    "text": "14 Laboratorio 4: Análisis de Loaders",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laboratorio 4: Análisis de Loaders</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/lab-04.html#objetivo",
+    "href": "unidades/unidad-04/lab-04.html#objetivo",
+    "title": "13  Laboratorio 4: Análisis de Loaders",
+    "section": "14.1 Objetivo",
+    "text": "14.1 Objetivo\nIdentificar técnicas de evasión en SmokeLoader y BunnyLoader usando análisis estático.",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laboratorio 4: Análisis de Loaders</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/lab-04.html#paso-1-smokeloader-anti-debug",
+    "href": "unidades/unidad-04/lab-04.html#paso-1-smokeloader-anti-debug",
+    "title": "13  Laboratorio 4: Análisis de Loaders",
+    "section": "14.2 Paso 1: SmokeLoader Anti-debug",
+    "text": "14.2 Paso 1: SmokeLoader Anti-debug\n\n14.2.1 1.1. Chequeo de debugger\n; Assembly típico\ncall IsDebuggerPresent\ntest al, al\njz skip_evasion",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laboratorio 4: Análisis de Loaders</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/lab-04.html#paso-2-bunnyloader-string-obfuscation",
+    "href": "unidades/unidad-04/lab-04.html#paso-2-bunnyloader-string-obfuscation",
+    "title": "13  Laboratorio 4: Análisis de Loaders",
+    "section": "14.3 Paso 2: BunnyLoader String Obfuscation",
+    "text": "14.3 Paso 2: BunnyLoader String Obfuscation\n\n14.3.1 2.1. Identificar strings encriptadas\n# Entropy analysis\npecheck.py malware.exe | grep -A5 -B5 \"entropy\"",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laboratorio 4: Análisis de Loaders</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/lab-04.html#paso-3-identificar-rutas-de-descarga",
+    "href": "unidades/unidad-04/lab-04.html#paso-3-identificar-rutas-de-descarga",
+    "title": "13  Laboratorio 4: Análisis de Loaders",
+    "section": "14.4 Paso 3: Identificar rutas de descarga",
+    "text": "14.4 Paso 3: Identificar rutas de descarga\n\n14.4.1 3.1. URLs ocultas\nstrings malware.exe | grep -E \"https?://\"",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laboratorio 4: Análisis de Loaders</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/lab-04.html#verificación",
+    "href": "unidades/unidad-04/lab-04.html#verificación",
+    "title": "13  Laboratorio 4: Análisis de Loaders",
+    "section": "14.5 Verificación",
+    "text": "14.5 Verificación\n\n\n\nCheckpoint\nResultado\n\n\n\n\nAnti-debug\nIdentificado\n\n\nString enc\nRutas encontradas\n\n\nURLs\nLista de C2",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Laboratorio 4: Análisis de Loaders</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-04/quiz-04.html",
+    "href": "unidades/unidad-04/quiz-04.html",
+    "title": "14  Quiz 4: Malware Delivery Techniques",
+    "section": "",
+    "text": "15 Quiz 4: Malware Delivery Techniques\n\n15.0.1 1. Desarrollo\n¿Qué diferencia a un loader de un botnet?\n\n\n15.0.2 2. Opción múltiple\n¿Qué técnica usa SmokeLoader para detectar depuración?\n\nChequeo de IP pública\n\nIsDebuggerPresent API\n\nAnálisis de tráfico\n\nFingerprint de navegador\n\n\n\n15.0.3 3. Verdadero/Falso\nMirai se propaga mediante fuerza bruta de credenciales Telnet.\n\n\n15.0.4 4. Análisis\n¿Qué indica alta entropía en un binario?\n\n\n15.0.5 5. Comando\nEscribe el comando para identificar strings ofuscadas.",
+    "crumbs": [
+      "Unidad 4: Técnicas de Entrega de Malware",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Quiz 4: Malware Delivery Techniques</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/index.html",
+    "href": "unidades/unidad-05/index.html",
+    "title": "15  Information Stealers",
+    "section": "",
+    "text": "16 Unidad 5: Information Stealers",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/index.html#introducción",
+    "href": "unidades/unidad-05/index.html#introducción",
+    "title": "15  Information Stealers",
+    "section": "16.1 1. Introducción",
+    "text": "16.1 1. Introducción\nLos stealers son el columna vertebral de la economía del underground. Roban credenciales, cookies, wallets, y datos sensibles. Este mercado genera miles de millones anuales.",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/index.html#proceso-de-un-stealer",
+    "href": "unidades/unidad-05/index.html#proceso-de-un-stealer",
+    "title": "15  Information Stealers",
+    "section": "16.2 2. Proceso de un stealer",
+    "text": "16.2 2. Proceso de un stealer\n1. Harvesting → 2. Collection → 3. Exfiltration → 4. Monetización\n\n16.2.1 2.1. Victim Download\n\nArchivos ZIP\nDocumentos maliciosos\nCracks de software\n\n\n\n16.2.2 2.2. Data Collection\n\n\n\nTipo de dato\nUbicación típica\n\n\n\n\nPasswords navegadores\nAppData/Local/*/Login Data\n\n\nCookies\nCookies.sqlite, network.cookie\n\n\nCryptowallets\nAppData/Roaming/*/wallet.dat\n\n\nCredit cards\nNavegadores, keylogger\n\n\n\n\n\n16.2.3 2.3. Exfiltration\n\nC2 domains: .ru, .tk\nTelegram bots: Envío directo\nFTP: Servidores comprometidos",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/index.html#caso-raccoon-stealer",
+    "href": "unidades/unidad-05/index.html#caso-raccoon-stealer",
+    "title": "15  Information Stealers",
+    "section": "16.3 3. Caso: Raccoon Stealer",
+    "text": "16.3 3. Caso: Raccoon Stealer\n\n16.3.1 Funcionalidad clave\n# Pseudocódigo Raccoon\ndef collect_browser_data():\n    browsers = [\"Chrome\", \"Firefox\", \"Edge\"]\n    for browser in browsers:\n        # Extraer logins\n        logins = extract_logins(browser)\n        # Extraer cookies\n        cookies = extract_cookies(browser)\n        # Extraer history\n        history = extract_history(browser)\n\n\n16.3.2 Evasion\n\nMutex: Evita doble ejecución\nVM detection: Salta en máquinas virtuales\nSleep: Delay para evitar sandbox",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/index.html#ejercicios",
+    "href": "unidades/unidad-05/index.html#ejercicios",
+    "title": "15  Information Stealers",
+    "section": "16.4 4. Ejercicios",
+    "text": "16.4 4. Ejercicios\n\nAnalizar strings de SapphireStealer\nIdentificar rutas de extracción de credenciales",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/index.html#auto-evaluación",
+    "href": "unidades/unidad-05/index.html#auto-evaluación",
+    "title": "15  Information Stealers",
+    "section": "16.5 5. Auto-Evaluación",
+    "text": "16.5 5. Auto-Evaluación\n\n¿Por qué siguen funcionando los stealers?\nMétodos de exfiltración más comunes\nDiferencias Raccoon vs RedLine",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/lab-05.html",
+    "href": "unidades/unidad-05/lab-05.html",
+    "title": "16  Laboratorio 5: Análisis de Information Stealers",
+    "section": "",
+    "text": "17 Laboratorio 5: Análisis de Information Stealers",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Laboratorio 5: Análisis de Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/lab-05.html#objetivo",
+    "href": "unidades/unidad-05/lab-05.html#objetivo",
+    "title": "16  Laboratorio 5: Análisis de Information Stealers",
+    "section": "17.1 Objetivo",
+    "text": "17.1 Objetivo\nIdentificar rutas de extracción de credenciales en SapphireStealer usando técnicas estáticas.",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Laboratorio 5: Análisis de Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/lab-05.html#paso-1-identificar-rutas-de-datos",
+    "href": "unidades/unidad-05/lab-05.html#paso-1-identificar-rutas-de-datos",
+    "title": "16  Laboratorio 5: Análisis de Information Stealers",
+    "section": "17.2 Paso 1: Identificar rutas de datos",
+    "text": "17.2 Paso 1: Identificar rutas de datos\n\n17.2.1 1.1. Rutas de navegadores\nstrings SapphireStealer.exe | grep -i -E \"(appdata|chrome|firefox|edge|login)\"",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Laboratorio 5: Análisis de Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/lab-05.html#paso-2-identificar-rutas-de-cryptowallets",
+    "href": "unidades/unidad-05/lab-05.html#paso-2-identificar-rutas-de-cryptowallets",
+    "title": "16  Laboratorio 5: Análisis de Information Stealers",
+    "section": "17.3 Paso 2: Identificar rutas de cryptowallets",
+    "text": "17.3 Paso 2: Identificar rutas de cryptowallets\n\n17.3.1 2.1. Wallets comunes\nstrings SapphireStealer.exe | grep -i -E \"(wallet|bitcoin|ethereum|crypto)\"",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Laboratorio 5: Análisis de Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/lab-05.html#paso-3-identificar-rutas-de-exfiltración",
+    "href": "unidades/unidad-05/lab-05.html#paso-3-identificar-rutas-de-exfiltración",
+    "title": "16  Laboratorio 5: Análisis de Information Stealers",
+    "section": "17.4 Paso 3: Identificar rutas de exfiltración",
+    "text": "17.4 Paso 3: Identificar rutas de exfiltración\n\n17.4.1 3.1. URLs de C2\nstrings SapphireStealer.exe | grep -i -E \"(http|https|ftp|dns|telegram)\"",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Laboratorio 5: Análisis de Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/lab-05.html#verificación",
+    "href": "unidades/unidad-05/lab-05.html#verificación",
+    "title": "16  Laboratorio 5: Análisis de Information Stealers",
+    "section": "17.5 Verificación",
+    "text": "17.5 Verificación\n\n\n\nCheckpoint\nResultado esperado\n\n\n\n\nBrowser paths\nWallets identificados\n\n\nWallet paths\nRutas extraídas\n\n\nC2 URLs\nDominios encontrados",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Laboratorio 5: Análisis de Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-05/quiz-05.html",
+    "href": "unidades/unidad-05/quiz-05.html",
+    "title": "17  Quiz 5: Information Stealers",
+    "section": "",
+    "text": "18 Quiz 5: Information Stealers\n\n18.0.1 1. Listar\n5 tipos de datos que roban los stealers.\n\n\n18.0.2 2. Explicar\n¿Por qué siguen siendo efectivos los stealers?\n\n\n18.0.3 3. Analizar\n¿Qué diferencia hay entre Raccoon y RedLine stealers?\n\n\n18.0.4 4. Identificar\nRuta típica de credenciales en Chrome.\n\n\n18.0.5 5. Comando\nEscribe el comando para buscar strings relacionadas a cryptowallets.",
+    "crumbs": [
+      "Unidad 5: Information Stealers",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Quiz 5: Information Stealers</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/index.html",
+    "href": "unidades/unidad-06/index.html",
+    "title": "18  Banking Trojans",
+    "section": "",
+    "text": "19 Unidad 6: Banking Trojans",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Banking Trojans</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/index.html#introducción",
+    "href": "unidades/unidad-06/index.html#introducción",
+    "title": "18  Banking Trojans",
+    "section": "19.1 1. Introducción",
+    "text": "19.1 1. Introducción\nLos banking trojans son malware financiero especializado en robo de credenciales bancarias. Android usa Accessibility API para overlay, Windows usa inyección de procesos.",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Banking Trojans</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/index.html#android-banking-trojans",
+    "href": "unidades/unidad-06/index.html#android-banking-trojans",
+    "title": "18  Banking Trojans",
+    "section": "19.2 2. Android Banking Trojans",
+    "text": "19.2 2. Android Banking Trojans\n\n19.2.1 2.1. Accessibility API Abuse\nLos trojans solicitan permiso android.permission.BIND_ACCESSIBILITY_SERVICE para: - Leer pantalla - Interceptar clicks - Injectar overlays\n\n\n19.2.2 2.2. Cerberus Overlay\n// Pseudocódigo de overlay malicioso\npublic class OverlayService extends AccessibilityService {\n    @Override\n    public void onAccessibilityEvent(AccessibilityEvent event) {\n        String packageName = event.getPackageName().toString();\n        if (packageName.equals(\"com.bank.app\")) {\n            injectPhishingOverlay();\n        }\n    }\n}",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Banking Trojans</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/index.html#windows-banking-trojans",
+    "href": "unidades/unidad-06/index.html#windows-banking-trojans",
+    "title": "18  Banking Trojans",
+    "section": "19.3 3. Windows Banking Trojans",
+    "text": "19.3 3. Windows Banking Trojans\n\n19.3.1 3.1. TrickBot Browser Injection\nTécnicas: - Process injection en navegadores - Function hooking API - Web injects para modificar páginas\n\n\n19.3.2 3.2. Cadenas de ataque\n1. Download → 2. Inject → 3. Hook → 4. Steal → 5. Exfiltrate",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Banking Trojans</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/index.html#mitigaciones",
+    "href": "unidades/unidad-06/index.html#mitigaciones",
+    "title": "18  Banking Trojans",
+    "section": "19.4 4. Mitigaciones",
+    "text": "19.4 4. Mitigaciones\n\nGoogle Play Protect\nEDR con detección de overlays\nPolíticas de no instalar APKs externos",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Banking Trojans</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/index.html#auto-evaluación",
+    "href": "unidades/unidad-06/index.html#auto-evaluación",
+    "title": "18  Banking Trojans",
+    "section": "19.5 5. Auto-Evaluación",
+    "text": "19.5 5. Auto-Evaluación\n\n¿Qué hace AccessibilityService?\nTécnica de inyección de TrickBot\nSeñales de detección de overlays",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Banking Trojans</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/lab-06.html",
+    "href": "unidades/unidad-06/lab-06.html",
+    "title": "19  Laboratorio 6: Banking Trojans Android",
+    "section": "",
+    "text": "20 Laboratorio 6: Banking Trojans Android",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laboratorio 6: Banking Trojans Android</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/lab-06.html#objetivo",
+    "href": "unidades/unidad-06/lab-06.html#objetivo",
+    "title": "19  Laboratorio 6: Banking Trojans Android",
+    "section": "20.1 Objetivo",
+    "text": "20.1 Objetivo\nAnalizar el uso de Accessibility API en trojans bancarios mediante inspección estática.",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laboratorio 6: Banking Trojans Android</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/lab-06.html#paso-1-identificar-permisos",
+    "href": "unidades/unidad-06/lab-06.html#paso-1-identificar-permisos",
+    "title": "19  Laboratorio 6: Banking Trojans Android",
+    "section": "20.2 Paso 1: Identificar permisos",
+    "text": "20.2 Paso 1: Identificar permisos\n\n20.2.1 1.1. Manifest analysis\napktool d malware.apk\ngrep -A2 -B2 \"android.permission.BIND_ACCESSIBILITY_SERVICE\" malware/AndroidManifest.xml",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laboratorio 6: Banking Trojans Android</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/lab-06.html#paso-2-identificar-overlays",
+    "href": "unidades/unidad-06/lab-06.html#paso-2-identificar-overlays",
+    "title": "19  Laboratorio 6: Banking Trojans Android",
+    "section": "20.3 Paso 2: Identificar overlays",
+    "text": "20.3 Paso 2: Identificar overlays\n\n20.3.1 2.1. Overlay code\ngrep -r \"TYPE_APPLICATION_OVERLAY\" malware/smali/\ngrep -r \"WindowManager.LayoutParams\" malware/smali/",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laboratorio 6: Banking Trojans Android</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/lab-06.html#verificación",
+    "href": "unidades/unidad-06/lab-06.html#verificación",
+    "title": "19  Laboratorio 6: Banking Trojans Android",
+    "section": "20.4 Verificación",
+    "text": "20.4 Verificación\n\n\n\nCheckpoint\nResultado\n\n\n\n\nAccessibility perm\nIdentificado\n\n\nOverlay code\nDetectado\n\n\nSuspicous perms\nListados",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Laboratorio 6: Banking Trojans Android</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-06/quiz-06.html",
+    "href": "unidades/unidad-06/quiz-06.html",
+    "title": "20  Quiz 6: Banking Trojans",
+    "section": "",
+    "text": "21 Quiz 6: Banking Trojans\n\n21.0.1 1. Identificar\nPermiso de Android que abusa Cerberus para overlays.\n\n\n21.0.2 2. Explicar\nTécnica de process injection usada por TrickBot.\n\n\n21.0.3 3. Comparar\nBanking trojan vs RAT principal diferencia.\n\n\n21.0.4 4. Verificar\nMétodo para detectar overlays en Android.\n\n\n21.0.5 5. Comando\nAPKtool command para decompilar un APK.",
+    "crumbs": [
+      "Unidad 6: Banking Trojans",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Quiz 6: Banking Trojans</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/index.html",
+    "href": "unidades/unidad-07/index.html",
+    "title": "21  Packers y Crypters",
+    "section": "",
+    "text": "22 Unidad 7: Packers y Crypters",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Packers y Crypters</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/index.html#introducción",
+    "href": "unidades/unidad-07/index.html#introducción",
+    "title": "21  Packers y Crypters",
+    "section": "22.1 1. Introducción",
+    "text": "22.1 1. Introducción\nLos packers ofuscan el malware para evadir AV/EDR. Los crypters en el underground son herramientas de venta que demuestran “funcionalidad”.",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Packers y Crypters</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/index.html#técnicas-de-protección",
+    "href": "unidades/unidad-07/index.html#técnicas-de-protección",
+    "title": "21  Packers y Crypters",
+    "section": "22.2 2. Técnicas de protección",
+    "text": "22.2 2. Técnicas de protección\n\n22.2.1 2.1. String Obfuscation\n// String ofuscada\nchar *enc = \"\\x48\\x65\\x6c\\x6c\\x6f\"; // \"Hello\" XOR encrypted\nfor(int i=0; i&lt;len; i++) dec[i] = enc[i] ^ 0xAA;\n\n\n22.2.2 2.2. Control Flow Obfuscation\n\nJunk code insertion\nOpaque predicates\nJump tables\n\n\n\n22.2.3 2.3. Entropy Analysis\nEntropy alta (&gt; 7.0) indica: - Compresión - Encriptación\n- Empaquetado",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Packers y Crypters</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/index.html#proceso-de-unpacking",
+    "href": "unidades/unidad-07/index.html#proceso-de-unpacking",
+    "title": "21  Packers y Crypters",
+    "section": "22.3 3. Proceso de Unpacking",
+    "text": "22.3 3. Proceso de Unpacking\n\n22.3.1 3.1. Memory Allocation\n\nVirtualAlloc con permisos PAGE_EXECUTE_READWRITE\nCopia del stub desempacador\nDesencriptado del payload\n\n\n\n22.3.2 3.2. UpX Unpacking\n# Identificar UpX\nupx -l malware.exe\n\n# Desempaquetar\nupx -d malware.exe -o unpacked.exe",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Packers y Crypters</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/index.html#ejercicios",
+    "href": "unidades/unidad-07/index.html#ejercicios",
+    "title": "21  Packers y Crypters",
+    "section": "22.4 4. Ejercicios",
+    "text": "22.4 4. Ejercicios\n\nCalcular entropy de archivo binario\nIdentificar UPX con strings y peid",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Packers y Crypters</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/index.html#auto-evaluación",
+    "href": "unidades/unidad-07/index.html#auto-evaluación",
+    "title": "21  Packers y Crypters",
+    "section": "22.5 5. Auto-Evaluación",
+    "text": "22.5 5. Auto-Evaluación\n\nSeñales de archivo empaquetado\nMétodo de unpacking manual\nUso de entropy en análisis",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Packers y Crypters</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/lab-07.html",
+    "href": "unidades/unidad-07/lab-07.html",
+    "title": "22  Laboratorio 7: Unpacking de Malware",
+    "section": "",
+    "text": "23 Laboratorio 7: Unpacking de Malware",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Laboratorio 7: Unpacking de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/lab-07.html#objetivo",
+    "href": "unidades/unidad-07/lab-07.html#objetivo",
+    "title": "22  Laboratorio 7: Unpacking de Malware",
+    "section": "23.1 Objetivo",
+    "text": "23.1 Objetivo\nDesempaquetar un binario protegido usando técnicas estáticas y dinámicas.",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Laboratorio 7: Unpacking de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/lab-07.html#paso-1-identificar-packer",
+    "href": "unidades/unidad-07/lab-07.html#paso-1-identificar-packer",
+    "title": "22  Laboratorio 7: Unpacking de Malware",
+    "section": "23.2 Paso 1: Identificar packer",
+    "text": "23.2 Paso 1: Identificar packer\n\n23.2.1 1.1. PEiD o Detect It Easy\ndiec malware.exe\n# O buscar firmas comunes\nstrings malware.exe | head -20",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Laboratorio 7: Unpacking de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/lab-07.html#paso-2-calcular-entropy",
+    "href": "unidades/unidad-07/lab-07.html#paso-2-calcular-entropy",
+    "title": "22  Laboratorio 7: Unpacking de Malware",
+    "section": "23.3 Paso 2: Calcular entropy",
+    "text": "23.3 Paso 2: Calcular entropy\n\n23.3.1 2.1. Análisis de entropía\n# Usar herramienta de entropía\nentropyscan.py malware.exe\n# Entropy alta (&gt;7.0) indica compresión/encriptación",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Laboratorio 7: Unpacking de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/lab-07.html#paso-3-unpacking-manual",
+    "href": "unidades/unidad-07/lab-07.html#paso-3-unpacking-manual",
+    "title": "22  Laboratorio 7: Unpacking de Malware",
+    "section": "23.4 Paso 3: Unpacking manual",
+    "text": "23.4 Paso 3: Unpacking manual\n\n23.4.1 3.1. Memory dump\nEn VMWare/VirtualBox: 1. Ejecutar en máquina aislada 2. Usar Process Dump: procdump -ma malware.exe 3. Analizar dump con IDA/Ghidra",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Laboratorio 7: Unpacking de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/lab-07.html#verificación",
+    "href": "unidades/unidad-07/lab-07.html#verificación",
+    "title": "22  Laboratorio 7: Unpacking de Malware",
+    "section": "23.5 Verificación",
+    "text": "23.5 Verificación\n\n\n\nCheckpoint\nResultado\n\n\n\n\nPacker ID\nIdentificado\n\n\nEntropy\nValor calculado\n\n\nPayload\nRecuperado",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Laboratorio 7: Unpacking de Malware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-07/quiz-07.html",
+    "href": "unidades/unidad-07/quiz-07.html",
+    "title": "23  Quiz 7: Packers y Crypters",
+    "section": "",
+    "text": "24 Quiz 7: Packers y Crypters\n\n24.0.1 1. Definir\n¿Qué hace un packer en malware?\n\n\n24.0.2 2. Identificar\nTécnica para detectar malware empaquetado.\n\n\n24.0.3 3. Explicar\nMétodo de unpacking estático vs dinámico.\n\n\n24.0.4 4. Diferenciar\nEntropy alta significa qué en análisis.\n\n\n24.0.5 5. Comando\nEscribe el command para desempaquetar con UPX.",
+    "crumbs": [
+      "Unidad 7: Packers y Crypters",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Quiz 7: Packers y Crypters</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/index.html",
+    "href": "unidades/unidad-08/index.html",
+    "title": "24  Frameworks Command-and-Control",
+    "section": "",
+    "text": "25 Unidad 8: Frameworks Command-and-Control",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Frameworks Command-and-Control</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/index.html#introducción",
+    "href": "unidades/unidad-08/index.html#introducción",
+    "title": "24  Frameworks Command-and-Control",
+    "section": "25.1 1. Introducción",
+    "text": "25.1 1. Introducción\nLos frameworks C2 son infraestructuras de control para sistemas comprometidos. Cobalt Strike es el estándar de facto, pero el underground tiene variantes piratas.",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Frameworks Command-and-Control</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/index.html#componentes-de-un-c2",
+    "href": "unidades/unidad-08/index.html#componentes-de-un-c2",
+    "title": "24  Frameworks Command-and-Control",
+    "section": "25.2 2. Componentes de un C2",
+    "text": "25.2 2. Componentes de un C2\n\n\n\nComponente\nFunción\n\n\n\n\nImplant\nAgente en víctima\n\n\nBeacon\nComunicación peródica\n\n\nTeam Server\nControl central\n\n\nStaging\nConfiguración dinámica",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Frameworks Command-and-Control</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/index.html#caso-vermilion-strike-vs-cobalt-strike",
+    "href": "unidades/unidad-08/index.html#caso-vermilion-strike-vs-cobalt-strike",
+    "title": "24  Frameworks Command-and-Control",
+    "section": "25.3 3. Caso: Vermilion Strike vs Cobalt Strike",
+    "text": "25.3 3. Caso: Vermilion Strike vs Cobalt Strike\nVermilion Strike (copy de Cobalt Strike): - Config decryption: Algoritmo XOR simple - Metadata collection: Sistema, usuario, red - Encrypted exfiltration: AES-256\n\n25.3.1 Técnicas de evasión\n\nSleep masks: Cambian shellcode\nProcess hollowing: Inyección en proceso legítimo\nNamed pipes: Comunicación interna",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Frameworks Command-and-Control</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/index.html#detección",
+    "href": "unidades/unidad-08/index.html#detección",
+    "title": "24  Frameworks Command-and-Control",
+    "section": "25.4 4. Detección",
+    "text": "25.4 4. Detección\n\n25.4.1 4.1. Tráfico C2\nSeñales en red: - Conexiones HTTP recurrentes - User-Agent sospechosos - DNS tunneling\n\n\n25.4.2 4.2. Sliver Detection\n# Análisis de tráfico\nsliver-server -s  # Staging server logs\n\n# Detección de beacon\nnetstat -ano | grep :443  # Conexiones sospechosas",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Frameworks Command-and-Control</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/index.html#auto-evaluación",
+    "href": "unidades/unidad-08/index.html#auto-evaluación",
+    "title": "24  Frameworks Command-and-Control",
+    "section": "25.5 5. Auto-Evaluación",
+    "text": "25.5 5. Auto-Evaluación\n\nArquitectura de Cobalt Strike\nConfiguración de beacon\nMétodos de detección de C2",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Frameworks Command-and-Control</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/lab-08.html",
+    "href": "unidades/unidad-08/lab-08.html",
+    "title": "25  Laboratorio 8: Análisis de Frameworks C2",
+    "section": "",
+    "text": "26 Laboratorio 8: Análisis de Frameworks C2",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laboratorio 8: Análisis de Frameworks C2</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/lab-08.html#objetivo",
+    "href": "unidades/unidad-08/lab-08.html#objetivo",
+    "title": "25  Laboratorio 8: Análisis de Frameworks C2",
+    "section": "26.1 Objetivo",
+    "text": "26.1 Objetivo\nAnalizar configuración de Vermilion Strike/Cobalt Strike usando técnicas de extracción.",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laboratorio 8: Análisis de Frameworks C2</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/lab-08.html#paso-1-identificar-configuración",
+    "href": "unidades/unidad-08/lab-08.html#paso-1-identificar-configuración",
+    "title": "25  Laboratorio 8: Análisis de Frameworks C2",
+    "section": "26.2 Paso 1: Identificar configuración",
+    "text": "26.2 Paso 1: Identificar configuración\n\n26.2.1 1.1. Strings sospechosas\nstrings malware.exe | grep -i -E \"(beacon|teamserver|callback|jarm)\"",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laboratorio 8: Análisis de Frameworks C2</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/lab-08.html#paso-2-decodificar-configuración",
+    "href": "unidades/unidad-08/lab-08.html#paso-2-decodificar-configuración",
+    "title": "25  Laboratorio 8: Análisis de Frameworks C2",
+    "section": "26.3 Paso 2: Decodificar configuración",
+    "text": "26.3 Paso 2: Decodificar configuración\n\n26.3.1 2.1. XOR decode\n# Pseudocódigo para decode\ndef decode_config(data, key=0x55):\n    return bytes([b ^ key for b in data])",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laboratorio 8: Análisis de Frameworks C2</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/lab-08.html#verificación",
+    "href": "unidades/unidad-08/lab-08.html#verificación",
+    "title": "25  Laboratorio 8: Análisis de Frameworks C2",
+    "section": "26.4 Verificación",
+    "text": "26.4 Verificación\n\n\n\nCheckpoint\nResultado\n\n\n\n\nConfig strings\nExtraídas\n\n\nDecryption\nCompletada\n\n\nC2 domains\nIdentificadas",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Laboratorio 8: Análisis de Frameworks C2</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-08/quiz-08.html",
+    "href": "unidades/unidad-08/quiz-08.html",
+    "title": "26  Quiz 8: Frameworks C2",
+    "section": "",
+    "text": "27 Quiz 8: Frameworks C2\n\n27.0.1 1. Identificar\nComponentes principales de Cobalt Strike.\n\n\n27.0.2 2. Explicar\nDiferencia entre Beacon y Implant.\n\n\n27.0.3 3. Analizar\nTécnica de string deobfuscation en Vermilion Strike.\n\n\n27.0.4 4. Verificar\nMétodo para detectar tráfico C2 en red.\n\n\n27.0.5 5. Comando\nEscribe el comando para listar conexiones de red activas.",
+    "crumbs": [
+      "Unidad 8: Frameworks C2",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Quiz 8: Frameworks C2</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/index.html",
+    "href": "unidades/unidad-09/index.html",
+    "title": "27  Living Off the Land",
+    "section": "",
+    "text": "28 Unidad 9: Living Off the Land",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/index.html#introducción",
+    "href": "unidades/unidad-09/index.html#introducción",
+    "title": "27  Living Off the Land",
+    "section": "28.1 1. Introducción",
+    "text": "28.1 1. Introducción\n“Living Off the Land” significa usar binarios legítimos del sistema para actividades maliciosas. PowerShell, WMI, y herramientas de administrador se abusan para evadir detección.",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/index.html#lolbins-comunes",
+    "href": "unidades/unidad-09/index.html#lolbins-comunes",
+    "title": "27  Living Off the Land",
+    "section": "28.2 2. LOLBins comunes",
+    "text": "28.2 2. LOLBins comunes\n\n\n\nBinario\nTécnica típica\nMITRE TID\n\n\n\n\npowershell.exe\nDescarga y ejecución\nT1059.001\n\n\nwmic.exe\nEnumeración de procesos\nT1047\n\n\nrundll32.exe\nEjecución de código\nT1218.011\n\n\nmshta.exe\nHTML applications maliciosas\nT1218.005\n\n\nwscript.exe\nScripts JScript/VBScript\nT1059.005",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/index.html#técnicas-por-fase",
+    "href": "unidades/unidad-09/index.html#técnicas-por-fase",
+    "title": "27  Living Off the Land",
+    "section": "28.3 3. Técnicas por fase",
+    "text": "28.3 3. Técnicas por fase\n\n28.3.1 3.1. Discovery\n# Enumeración de dominio\nGet-ADComputer -Filter *\narp -a\nnet view\n\n\n28.3.2 3.2. Privilege Escalation\n# Abuso de servicios débiles\nsc query &gt; services.txt\nicacls C:\\Windows\\Temp /grant Everyone:F\n\n\n28.3.3 3.3. Lateral Movement\n# WMI para ejecución remota\nwmic /node:192.168.1.10 process call create \"malware.exe\"\npsexec \\\\192.168.1.10 -u admin -p passwd cmd.exe",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/index.html#caso-conti-playbook",
+    "href": "unidades/unidad-09/index.html#caso-conti-playbook",
+    "title": "27  Living Off the Land",
+    "section": "28.4 4. Caso: Conti Playbook",
+    "text": "28.4 4. Caso: Conti Playbook\nDocumentos filtrados muestran: - Uso de PsExec para movimiento lateral - BloodHound para mapeo de AD - Rubeus para kerberoasting",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/index.html#mitigaciones",
+    "href": "unidades/unidad-09/index.html#mitigaciones",
+    "title": "27  Living Off the Land",
+    "section": "28.5 5. Mitigaciones",
+    "text": "28.5 5. Mitigaciones\n\nConstrained Language Mode para PowerShell\nAppLocker para limitar binarios\nEDR con detección de comportamiento\nLogging ampliado de procesos",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/index.html#auto-evaluación",
+    "href": "unidades/unidad-09/index.html#auto-evaluación",
+    "title": "27  Living Off the Land",
+    "section": "28.6 6. Auto-Evaluación",
+    "text": "28.6 6. Auto-Evaluación\n\nLista 3 LOLBins y sus técnicas\nExplica cómo funciona BloodHound\nPropone mitigación para PsExec",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/lab-09.html",
+    "href": "unidades/unidad-09/lab-09.html",
+    "title": "28  Laboratorio 9: Living Off the Land",
+    "section": "",
+    "text": "29 Laboratorio 9: Living Off the Land",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Laboratorio 9: Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/lab-09.html#objetivo",
+    "href": "unidades/unidad-09/lab-09.html#objetivo",
+    "title": "28  Laboratorio 9: Living Off the Land",
+    "section": "29.1 Objetivo",
+    "text": "29.1 Objetivo\nIdentificar uso de LOLBins en logs de sistema mediante análisis de eventos.",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Laboratorio 9: Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/lab-09.html#paso-1-analizar-logs-de-proceso",
+    "href": "unidades/unidad-09/lab-09.html#paso-1-analizar-logs-de-proceso",
+    "title": "28  Laboratorio 9: Living Off the Land",
+    "section": "29.2 Paso 1: Analizar logs de proceso",
+    "text": "29.2 Paso 1: Analizar logs de proceso\n\n29.2.1 1.1. Sysmon events\n&lt;!-- Evento 1: Process Create --&gt;\n&lt;Event&gt;\n  &lt;EventData&gt;\n    &lt;Data Name=\"Image\"&gt;powershell.exe&lt;/Data&gt;\n    &lt;Data Name=\"CommandLine\"&gt;-enc [payload]&lt;/Data&gt;\n  &lt;/EventData&gt;\n&lt;/Event&gt;",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Laboratorio 9: Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/lab-09.html#paso-2-identificar-patrones-sospechosos",
+    "href": "unidades/unidad-09/lab-09.html#paso-2-identificar-patrones-sospechosos",
+    "title": "28  Laboratorio 9: Living Off the Land",
+    "section": "29.3 Paso 2: Identificar patrones sospechosos",
+    "text": "29.3 Paso 2: Identificar patrones sospechosos\n\n29.3.1 2.1. PowerShell encoded\n# Buscar encoded commands\ngrep -i \"encodedcommand\\|enc \" sysmon.log",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Laboratorio 9: Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/lab-09.html#paso-3-wmi-abuse-detection",
+    "href": "unidades/unidad-09/lab-09.html#paso-3-wmi-abuse-detection",
+    "title": "28  Laboratorio 9: Living Off the Land",
+    "section": "29.4 Paso 3: WMI abuse detection",
+    "text": "29.4 Paso 3: WMI abuse detection\n\n29.4.1 3.1. WMIC patterns\ngrep -i \"wmic.*process.*call.*create\" sysmon.log",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Laboratorio 9: Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/lab-09.html#verificación",
+    "href": "unidades/unidad-09/lab-09.html#verificación",
+    "title": "28  Laboratorio 9: Living Off the Land",
+    "section": "29.5 Verificación",
+    "text": "29.5 Verificación\n\n\n\nCheckpoint\nDetección\n\n\n\n\nEncoded PS\nIdentificado\n\n\nWMI abuse\nDetectado\n\n\nLOLBin chain\nReconstruido",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Laboratorio 9: Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-09/quiz-09.html",
+    "href": "unidades/unidad-09/quiz-09.html",
+    "title": "29  Quiz 9: Living Off the Land",
+    "section": "",
+    "text": "30 Quiz 9: Living Off the Land\n\n30.0.1 1. Listar\n5 LOLBins comunes en Windows.\n\n\n30.0.2 2. Explicar\nCómo BloodHound ayuda en lateral movement.\n\n\n30.0.3 3. Identificar\nMITRE TID para PowerShell abuse.\n\n\n30.0.4 4. Verificar\nTécnica defensiva contra PsExec.\n\n\n30.0.5 5. Comando\nEscribe el command para enumerar equipos en dominio.",
+    "crumbs": [
+      "Unidad 9: Living Off the Land",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Quiz 9: Living Off the Land</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html",
+    "href": "unidades/unidad-10/index.html",
+    "title": "30  Windows Ransomware",
+    "section": "",
+    "text": "31 Unidad 10: Windows Ransomware",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#introducción",
+    "href": "unidades/unidad-10/index.html#introducción",
+    "title": "30  Windows Ransomware",
+    "section": "31.1 1. Introducción",
+    "text": "31.1 1. Introducción\nEl ransomware es el producto final del pipeline de la dark web. Lockers encriptan archivos y exigen rescate. El modelo Ransomware-as-a-Service (RaaS) democratizó su uso.",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#historia-del-ransomware",
+    "href": "unidades/unidad-10/index.html#historia-del-ransomware",
+    "title": "30  Windows Ransomware",
+    "section": "31.2 2. Historia del ransomware",
+    "text": "31.2 2. Historia del ransomware\n\n\n\nEtapa\nAño\nCaracterística\n\n\n\n\nPrimeros\n2005-2012\nEncryption simples, envío por email\n\n\nModernos\n2013-2019\nCrypto, C2, evasión\n\n\nRaaS\n2020+\nAfiliados, soporte, profit sharing",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#técnicas-del-locker",
+    "href": "unidades/unidad-10/index.html#técnicas-del-locker",
+    "title": "30  Windows Ransomware",
+    "section": "31.3 3. Técnicas del locker",
+    "text": "31.3 3. Técnicas del locker\n\n31.3.1 3.1. Generación de claves\n// Algoritmo típico de generación\nRSA *rsa = RSA_generate_key(2048, RSA_F4, NULL, NULL);\nunsigned char aes_key[32];\nRAND_bytes(aes_key, 32);  // AES-256 key for files\n\n\n31.3.2 3.2. Evasión de recuperación\n\nDelete shadow copies: vssadmin delete shadows\nExclude system dirs: Evita que el OS no arranqué\nWhitelist archivos: No encripta todo",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#caso-revilsodinokibi",
+    "href": "unidades/unidad-10/index.html#caso-revilsodinokibi",
+    "title": "30  Windows Ransomware",
+    "section": "31.4 4. Caso: REvil/Sodinokibi",
+    "text": "31.4 4. Caso: REvil/Sodinokibi\nEl libro compara dos versiones:\n\n31.4.1 Versión temprana (2019)\n\nEncrypt simple con AES\nWhitelist limitada: C:\\Windows, bootmgr\nPayload pequeño (~50KB)\nSin procesos adicionales\n\n\n\n31.4.2 Versión mejorada (2020+)\n\nProcess hollowing para inyección\nDynamic config via comando de línea\nUAC bypass mejorado\nAnti-analysis integrado",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#snaffler-para-reconocimiento",
+    "href": "unidades/unidad-10/index.html#snaffler-para-reconocimiento",
+    "title": "30  Windows Ransomware",
+    "section": "31.5 5. Snaffler para reconocimiento",
+    "text": "31.5 5. Snaffler para reconocimiento\nAntes de deployar ransomware, los atacantes buscan datos valiosos:\n# Enumerar shares accesibles\nnet view\nnet view \\\\target-system\nnet share\n\n# Snaffler para triage\nSnaffler.exe -s -a -o shares.log\n# Salida: {Green} (bajo priority) vs {Black} (VM, SQL, passwords)\nNota de seguridad: Snaffler es detectado por Defender como no “OPSEC safe”.",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#decryptores",
+    "href": "unidades/unidad-10/index.html#decryptores",
+    "title": "30  Windows Ransomware",
+    "section": "31.6 6. Decryptores",
+    "text": "31.6 6. Decryptores\nCrean cuando: - Claves privadas filtradas (REvil shutdown 2021) - Implementación criptográfica débil - Bug en RNG o key derivation\n\n31.6.1 Ejemplo: Babuk leak\nEl source code filtrado permitió crear decryptor después de encontrar errores.",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#decryptores-1",
+    "href": "unidades/unidad-10/index.html#decryptores-1",
+    "title": "30  Windows Ransomware",
+    "section": "31.7 5. Decryptores",
+    "text": "31.7 5. Decryptores\nDesarrolladores crean decryptores cuando: - Claves privadas filtradas - Implementación débil - Colisiones de RNG",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/index.html#auto-evaluación",
+    "href": "unidades/unidad-10/index.html#auto-evaluación",
+    "title": "30  Windows Ransomware",
+    "section": "31.8 6. Auto-Evaluación",
+    "text": "31.8 6. Auto-Evaluación\n\nFases del pipeline de ransomware\nTécnicas de eliminación de backups\nCómo funciona el modelo RaaS",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/lab-10.html",
+    "href": "unidades/unidad-10/lab-10.html",
+    "title": "31  Laboratorio 10: Análisis de Ransomware Windows",
+    "section": "",
+    "text": "32 Laboratorio 10: Análisis de Ransomware Windows",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Laboratorio 10: Análisis de Ransomware Windows</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/lab-10.html#objetivo",
+    "href": "unidades/unidad-10/lab-10.html#objetivo",
+    "title": "31  Laboratorio 10: Análisis de Ransomware Windows",
+    "section": "32.1 Objetivo",
+    "text": "32.1 Objetivo\nAnalizar técnicas de encriptación en REvil/Sodinokibi sin ejecutar código.",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Laboratorio 10: Análisis de Ransomware Windows</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/lab-10.html#paso-1-identificar-rutas-excluidas",
+    "href": "unidades/unidad-10/lab-10.html#paso-1-identificar-rutas-excluidas",
+    "title": "31  Laboratorio 10: Análisis de Ransomware Windows",
+    "section": "32.2 Paso 1: Identificar rutas excluidas",
+    "text": "32.2 Paso 1: Identificar rutas excluidas\n\n32.2.1 1.1. Whitelist strings\nstrings ransomware.exe | grep -i -E \"(window|system32|boot|whitelist)\"",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Laboratorio 10: Análisis de Ransomware Windows</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/lab-10.html#paso-2-identificar-rutas-de-eliminación-de-backups",
+    "href": "unidades/unidad-10/lab-10.html#paso-2-identificar-rutas-de-eliminación-de-backups",
+    "title": "31  Laboratorio 10: Análisis de Ransomware Windows",
+    "section": "32.3 Paso 2: Identificar rutas de eliminación de backups",
+    "text": "32.3 Paso 2: Identificar rutas de eliminación de backups\n\n32.3.1 2.1. Shadow copy deletion\nstrings ransomware.exe | grep -i -E \"(vssadmin|shadow|delete|wmic)\"",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Laboratorio 10: Análisis de Ransomware Windows</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/lab-10.html#paso-3-identificar-rutas-de-exfiltración",
+    "href": "unidades/unidad-10/lab-10.html#paso-3-identificar-rutas-de-exfiltración",
+    "title": "31  Laboratorio 10: Análisis de Ransomware Windows",
+    "section": "32.4 Paso 3: Identificar rutas de exfiltración",
+    "text": "32.4 Paso 3: Identificar rutas de exfiltración\n\n32.4.1 3.1. Note drop\nstrings ransomware.exe | grep -i -E \"(readme|decrypt|tor.*onion|payment)\"",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Laboratorio 10: Análisis de Ransomware Windows</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/lab-10.html#verificación",
+    "href": "unidades/unidad-10/lab-10.html#verificación",
+    "title": "31  Laboratorio 10: Análisis de Ransomware Windows",
+    "section": "32.5 Verificación",
+    "text": "32.5 Verificación\n\n\n\nCheckpoint\nResultado\n\n\n\n\nWhitelist\nIdentificado\n\n\nVSS deletion\nDetectado\n\n\nNote drop\nEncontrado",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Laboratorio 10: Análisis de Ransomware Windows</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-10/quiz-10.html",
+    "href": "unidades/unidad-10/quiz-10.html",
+    "title": "32  Quiz 10: Windows Ransomware",
+    "section": "",
+    "text": "33 Quiz 10: Windows Ransomware\n\n33.0.1 1. Identificar\nAlgoritmo típico para generar claves de ransomware.\n\n\n33.0.2 2. Explicar\nQué hace vssadmin delete shadows en ataque.\n\n\n33.0.3 3. Analizar\nDiferencia entre versión temprana y mejorada de REvil.\n\n\n33.0.4 4. Verificar\nMétodo para identificar ransomware en logs.\n\n\n33.0.5 5. Comando\nEscribe el command para matar procesos específicos.",
+    "crumbs": [
+      "Unidad 10: Windows Ransomware",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Quiz 10: Windows Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/index.html",
+    "href": "unidades/unidad-11/index.html",
+    "title": "33  Linux y ESXi Ransomware",
+    "section": "",
+    "text": "34 Unidad 11: Linux y ESXi Ransomware",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/index.html#introducción",
+    "href": "unidades/unidad-11/index.html#introducción",
+    "title": "33  Linux y ESXi Ransomware",
+    "section": "34.1 1. Introducción",
+    "text": "34.1 1. Introducción\nLinux y ESXi son blancos atractivos porque: - Menos EDR que Windows - Acceso a VMs completas - Data centers completos comprometidos",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/index.html#esxi-hypervisor",
+    "href": "unidades/unidad-11/index.html#esxi-hypervisor",
+    "title": "33  Linux y ESXi Ransomware",
+    "section": "34.2 2. ESXi Hypervisor",
+    "text": "34.2 2. ESXi Hypervisor\n\n34.2.1 2.1. Ventajas para atacantes\n\nVMs completas = más datos\nSin antivirus tradicional\nAdmin tool exposure (ports 80/443/902)\n\n\n\n34.2.2 2.2. REvil ESXi variant\n\n\n34.2.3 3 fases del ataque:\n\n\n\n\n\n\n\n\nFase\nAcción\nDetalles\n\n\n\n\n1. Shutdown\nApaga VMs\nvim-cmd vmsvc/power.shutdown\n\n\n2. Encrypt\nEncripta archivos\n.vmdk (disco), .vmx (config), .vmsn (snapshot)\n\n\n3. Exfil\nRoba datos\nPara doble extorsión (encryption + leak)\n\n\n\n\n\n34.2.4 Whitelist específico:\n/bin, /etc, /usr, /lib, /var/log\nNo encripta el sistema operativo base para que ESXi arranque.",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/index.html#alphv-rust-based",
+    "href": "unidades/unidad-11/index.html#alphv-rust-based",
+    "title": "33  Linux y ESXi Ransomware",
+    "section": "34.3 3. ALPHV Rust-based",
+    "text": "34.3 3. ALPHV Rust-based\nEl libro analiza la implementación Rust:\n\n34.3.1 3.1. Configuración\nStrings encriptados, whitelisted directories como /bin y /etc.\n\n\n34.3.2 3.2. Proceso\n\nParar servicios: kill -9 procesos críticos\nProcesar archivos: Encriptar con AES\nEliminar shadow: Borrar snapshots\n\n\n\n34.3.3 3.3. Ventajas Rust\n\nMemory safety sin garbage collector\nBinarios estáticos sin dependencias\nPerformance similar a C/C++\nMenos detección por no usar APIs típicas de Windows",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/index.html#alphv-rust-based-1",
+    "href": "unidades/unidad-11/index.html#alphv-rust-based-1",
+    "title": "33  Linux y ESXi Ransomware",
+    "section": "34.4 3. ALPHV Rust-based",
+    "text": "34.4 3. ALPHV Rust-based\nLas nuevas variantes usan Go/Rust: - Binarios estáticos - Menos detección heurística - Código nativo multiplataforma\n\n34.4.1 Características\n// Whitelisting en Rust\nlet excluded = vec![\"/bin\", \"/etc\", \"/usr\", \"/lib\"];\nif !excluded.iter().any(|e| path.starts_with(e)) {\n    encrypt_file(path);\n}",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/index.html#detección-en-linux",
+    "href": "unidades/unidad-11/index.html#detección-en-linux",
+    "title": "33  Linux y ESXi Ransomware",
+    "section": "34.5 4. Detección en Linux",
+    "text": "34.5 4. Detección en Linux\n\n34.5.1 Syslog monitoring\n# Auditd para monitorear encriptación masiva\n-a always,exit -F arch=b64 -S open,openat -F exit=-EACCES -k suspicious_file_open\n\n\n34.5.2 Process monitoring\n# Monitorear procesos sospechosos\nps aux | grep -E \"(openssl|gpg|age)\"",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/index.html#auto-evaluación",
+    "href": "unidades/unidad-11/index.html#auto-evaluación",
+    "title": "33  Linux y ESXi Ransomware",
+    "section": "34.6 5. Auto-Evaluación",
+    "text": "34.6 5. Auto-Evaluación\n\nDiferencias clave Linux vs Windows ransomware\nTécnicas de detección en ESXi\nVentajas del desarrollo en Rust",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/lab-11.html",
+    "href": "unidades/unidad-11/lab-11.html",
+    "title": "34  Laboratorio 11: Análisis de Ransomware Linux/ESXi",
+    "section": "",
+    "text": "35 Laboratorio 11: Análisis de Ransomware Linux/ESXi",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Laboratorio 11: Análisis de Ransomware Linux/ESXi</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/lab-11.html#objetivo",
+    "href": "unidades/unidad-11/lab-11.html#objetivo",
+    "title": "34  Laboratorio 11: Análisis de Ransomware Linux/ESXi",
+    "section": "35.1 Objetivo",
+    "text": "35.1 Objetivo\nAnalizar variantes de ransomware para sistemas Unix sin ejecutar código.",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Laboratorio 11: Análisis de Ransomware Linux/ESXi</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/lab-11.html#paso-1-identificar-paths-de-esxi",
+    "href": "unidades/unidad-11/lab-11.html#paso-1-identificar-paths-de-esxi",
+    "title": "34  Laboratorio 11: Análisis de Ransomware Linux/ESXi",
+    "section": "35.2 Paso 1: Identificar paths de ESXi",
+    "text": "35.2 Paso 1: Identificar paths de ESXi\n\n35.2.1 1.1. Configuración típica\nstrings esxi_ransomware.elf | grep -i -E \"(vmfs|vmdk|vmx|vsphere)\"",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Laboratorio 11: Análisis de Ransomware Linux/ESXi</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/lab-11.html#paso-2-identificar-rutas-excluidas",
+    "href": "unidades/unidad-11/lab-11.html#paso-2-identificar-rutas-excluidas",
+    "title": "34  Laboratorio 11: Análisis de Ransomware Linux/ESXi",
+    "section": "35.3 Paso 2: Identificar rutas excluidas",
+    "text": "35.3 Paso 2: Identificar rutas excluidas\n\n35.3.1 2.1. Whitelist Linux\nstrings ransomware.elf | grep -i -E \"(bin|etc|usr|lib|systemd)\"",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Laboratorio 11: Análisis de Ransomware Linux/ESXi</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/lab-11.html#paso-3-identificar-procesos-atacados",
+    "href": "unidades/unidad-11/lab-11.html#paso-3-identificar-procesos-atacados",
+    "title": "34  Laboratorio 11: Análisis de Ransomware Linux/ESXi",
+    "section": "35.4 Paso 3: Identificar procesos atacados",
+    "text": "35.4 Paso 3: Identificar procesos atacados\n\n35.4.1 3.1. Process killing\nstrings ransomware.elf | grep -i -E \"(kill|shutdown|pkill|systemctl)\"",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Laboratorio 11: Análisis de Ransomware Linux/ESXi</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/lab-11.html#verificación",
+    "href": "unidades/unidad-11/lab-11.html#verificación",
+    "title": "34  Laboratorio 11: Análisis de Ransomware Linux/ESXi",
+    "section": "35.5 Verificación",
+    "text": "35.5 Verificación\n\n\n\nCheckpoint\nResultado\n\n\n\n\nVMFS paths\nIdentificado\n\n\nWhitelist\nDetectado\n\n\nProcess kill\nEncontrado",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Laboratorio 11: Análisis de Ransomware Linux/ESXi</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-11/quiz-11.html",
+    "href": "unidades/unidad-11/quiz-11.html",
+    "title": "35  Quiz 11: Linux y ESXi Ransomware",
+    "section": "",
+    "text": "36 Quiz 11: Linux y ESXi Ransomware\n\n36.0.1 1. Identificar\nExtensión común de archivo de disco de VM.\n\n\n36.0.2 2. Explicar\nVentaja de Rust para malware.\n\n\n36.0.3 3. Analizar\nTécnica de REvil para VM shutdown.\n\n\n36.0.4 4. Verificar\nMétodo para monitorear encriptación en Linux.\n\n\n36.0.5 5. Comando\nEscribe el command para listar procesos sospechosos.",
+    "crumbs": [
+      "Unidad 11: Linux y ESXi Ransomware",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Quiz 11: Linux y ESXi Ransomware</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html",
+    "href": "unidades/unidad-12/index.html",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "",
+    "text": "37 Unidad 12: Lecciones de la Economía Underground",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html#introducción",
+    "href": "unidades/unidad-12/index.html#introducción",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "37.1 1. Introducción",
+    "text": "37.1 1. Introducción\nLa dark web no es caos: es un ecosistema económico con dinámicas claras. Entender estas dinámicas ayuda a predecir la próxima ola de amenazas.",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html#modelo-económico-del-underground",
+    "href": "unidades/unidad-12/index.html#modelo-económico-del-underground",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "37.2 2. Modelo económico del underground",
+    "text": "37.2 2. Modelo económico del underground\n\n37.2.1 2.1. Reactive Development\nLos actores reaccionan a: - Parches de seguridad - Operaciones de law enforcement - Nuevas herramientas de defensa\n\n\n37.2.2 2.2. Rebranding\nProductos criminales: - Cambio de nombre (REvil → Sodinokibi) - Actualización de versiones - Nuevos “vendedores”",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html#lowered-barriers-to-entry",
+    "href": "unidades/unidad-12/index.html#lowered-barriers-to-entry",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "37.3 3. Lowered Barriers to Entry",
+    "text": "37.3 3. Lowered Barriers to Entry\n\n37.3.1 3.1. DIY malware kits\nCualquiera puede comprar: - Phishing kits ($50-$500) - Loaders ($20-$200) - Ransomware RaaS (30% profit share)\n\n\n37.3.2 3.2. Tutoriales publicados\nLa dark web es educativa: - Tutoriales de pentesting - Manuales de uso de herramientas - “Cursos” de ciberdelincuencia",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html#inteligencia-artificial",
+    "href": "unidades/unidad-12/index.html#inteligencia-artificial",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "37.4 4. Inteligencia Artificial",
+    "text": "37.4 4. Inteligencia Artificial\nAplicaciones emergentes: - Generación de phishing emails con LLMs - Evasión de antivirus con prompts - Análisis automático de vulnerabilidades",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html#futuro-de-la-ciberseguridad",
+    "href": "unidades/unidad-12/index.html#futuro-de-la-ciberseguridad",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "37.5 5. Futuro de la ciberseguridad",
+    "text": "37.5 5. Futuro de la ciberseguridad\n\n37.5.1 Tendencias\n\nIA generativa como arma y defensa\nRust/Go para malware más eficiente\nRansomware contra infra crítica\nDeepfakes para ingeniería social\n\n\n\n37.5.2 Estrategias defensivas\n\nThreat hunting proactivo\nZero-trust architecture\nAI-powered detection\nSupply chain security",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html#proyecto-final",
+    "href": "unidades/unidad-12/index.html#proyecto-final",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "37.6 6. Proyecto Final",
+    "text": "37.6 6. Proyecto Final\nAnaliza un caso real del underground (sin acceder) y escribe: - Herramientas involucradas - Kill chain del ataque - Mitigaciones propuestas - Impacto económico",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/index.html#auto-evaluación",
+    "href": "unidades/unidad-12/index.html#auto-evaluación",
+    "title": "36  Lecciones de la Economía Underground",
+    "section": "37.7 7. Auto-Evaluación",
+    "text": "37.7 7. Auto-Evaluación\n\n¿Qué significa reactive development?\nModelo de negocio de Ransomware-as-a-Service\nImpacto de IA en el underground",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Lecciones de la Economía Underground</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/lab-12.html",
+    "href": "unidades/unidad-12/lab-12.html",
+    "title": "37  Laboratorio 12: Proyecto Final",
+    "section": "",
+    "text": "38 Laboratorio 12: Proyecto Final",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Laboratorio 12: Proyecto Final</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/lab-12.html#objetivo",
+    "href": "unidades/unidad-12/lab-12.html#objetivo",
+    "title": "37  Laboratorio 12: Proyecto Final",
+    "section": "38.1 Objetivo",
+    "text": "38.1 Objetivo\nCompletar un análisis integral de un caso real del underground y presentar recomendaciones de defensa.",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Laboratorio 12: Proyecto Final</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/lab-12.html#paso-1-selección-de-caso",
+    "href": "unidades/unidad-12/lab-12.html#paso-1-selección-de-caso",
+    "title": "37  Laboratorio 12: Proyecto Final",
+    "section": "38.2 Paso 1: Selección de caso",
+    "text": "38.2 Paso 1: Selección de caso\n\n38.2.1 1.1. Fuentes permitidas\n\nReportes de Symantec/Mandiant\nGitHub: DissectingTheDarkWeb\nBlogposts de investigadores públicos\n\nNO acceder a foros reales",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Laboratorio 12: Proyecto Final</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/lab-12.html#paso-2-análisis-del-caso",
+    "href": "unidades/unidad-12/lab-12.html#paso-2-análisis-del-caso",
+    "title": "37  Laboratorio 12: Proyecto Final",
+    "section": "38.3 Paso 2: Análisis del caso",
+    "text": "38.3 Paso 2: Análisis del caso\n\n38.3.1 2.1. Kill chain mapping\n\n\n\nFase Kill Chain\nTécnica observada\nHerramienta usada\n\n\n\n\n1. Reconocimiento\n\n\n\n\n2. Arma\n\n\n\n\n3. Entrega\n\n\n\n\n4. Explotación\n\n\n\n\n5. Instalación\n\n\n\n\n6. C2\n\n\n\n\n7. Acción",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Laboratorio 12: Proyecto Final</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/lab-12.html#paso-3-recomendaciones",
+    "href": "unidades/unidad-12/lab-12.html#paso-3-recomendaciones",
+    "title": "37  Laboratorio 12: Proyecto Final",
+    "section": "38.4 Paso 3: Recomendaciones",
+    "text": "38.4 Paso 3: Recomendaciones\n\n38.4.1 3.1. Mitigación por fase\nPara cada fase identifica: - Señales de detección - Controles preventivos - Respuesta a incidentes",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Laboratorio 12: Proyecto Final</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/lab-12.html#entregable",
+    "href": "unidades/unidad-12/lab-12.html#entregable",
+    "title": "37  Laboratorio 12: Proyecto Final",
+    "section": "38.5 Entregable",
+    "text": "38.5 Entregable\n\nReporte de 2-3 páginas (syllabus + análisis + mitigaciones)\nPresentación de 5 diapositivas\nLista de IoCs recopilados",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Laboratorio 12: Proyecto Final</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/lab-12.html#rubrica",
+    "href": "unidades/unidad-12/lab-12.html#rubrica",
+    "title": "37  Laboratorio 12: Proyecto Final",
+    "section": "38.6 Rubrica",
+    "text": "38.6 Rubrica\n\n\n\nCriterio\nExcelente\nBueno\nMejorable\n\n\n\n\nAnálisis\nKill chain completo\n5/7 fases\n&lt;5 fases\n\n\nIoCs\n10+ identificados\n5-10\n&lt;5\n\n\nMitigaciones\nAl menos 3\n1-2\n0-1\n\n\nPresentación\nClara y técnica\nBásica\nConfusa",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Laboratorio 12: Proyecto Final</span>"
+    ]
+  },
+  {
+    "objectID": "unidades/unidad-12/quiz-12.html",
+    "href": "unidades/unidad-12/quiz-12.html",
+    "title": "38  Quiz 12: Lecciones de la Economía Underground",
+    "section": "",
+    "text": "39 Quiz 12: Lecciones de la Economía Underground\n\n39.0.1 1. Definir\n¿Qué significa reactive development en threat actors?\n\n\n39.0.2 2. Explicar\nModelo de negocio de Ransomware-as-a-Service.\n\n\n39.0.3 3. Analizar\nImpacto de IA generativa en el underground.\n\n\n39.0.4 4. Proponer\nUna mitigación para futuras amenazas de stealers.\n\n\n39.0.5 5. Reflexionar\n¿Cómo cambia el threat landscape con Rust malware?",
+    "crumbs": [
+      "Unidad 12: Lecciones de la Economía Underground",
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Quiz 12: Lecciones de la Economía Underground</span>"
+    ]
+  }
+]

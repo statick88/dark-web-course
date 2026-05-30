@@ -1,0 +1,162 @@
+---
+lab: 1
+title: "Laboratorio 1: Introducción a Tor y Whonix"
+unit: 1
+estimated_time: "2 horas"
+security_level: ALTA
+---
+
+# Laboratorio 1: Introducción a Tor y Whonix
+
+::: {.callout-warning}
+## ADVERTENCIA DE SEGURIDAD
+
+Este laboratorio debe ejecutarse SOLO en:
+- Máquina virtual aislada (Whonix, VirtualBox/VMware)
+- Red virtualhost-only
+- Sin acceso a redes internas de la institución
+
+**No ejecutar en máquina host**. Cualquier descarga o interacción es bajo tu responsabilidad.
+:::
+
+## Objetivo
+
+Configurar y verificar un entorno Whonix seguro para exploración de la dark web, entendiendo cada componente del sistema.
+
+## Requisitos previos
+
+- VirtualBox o VMware instalado
+- 8GB RAM mínimo disponible
+- Conexión a internet estable
+
+## Paso 1: Descargar Whonix
+
+### 1.1. Identificar fuentes oficiales
+
+**Objetivo**: Encontrar la página oficial de Whonix.
+
+**Pasos manuales**:
+1. Abre una terminal en tu máquina host
+2. Ejecuta: `nslookup whonix.org` (NO copiar-pegar)
+3. Verifica que la IP resuelta coincida con documentación oficial
+
+**Output esperado**:
+```
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	whonix.org
+Address: [IP REAL]
+```
+
+### 1.1. DeepdarkCTI para URLs .onion
+
+**Objetivo**: Identificar fuentes legítimas de URLs de dark web.
+
+**Pasos manuales**:
+1. Busca "deepdarkCTI github" en Google (desde VM limpia)
+2. Identifica el repositorio oficial
+3. Lista URLs .onion verificables en el README
+
+### 1.2. Verificar firma GPG
+
+**Objetivo**: Confirmar autenticidad de la ISO de Whonix.
+
+**Pasos manuales**:
+1. Descarga el archivo `.asc` de firma
+2. Importa la clave: `gpg --recv-keys [clave oficial]`
+3. Verifica: `gpg --verify [archivo.asc]`
+
+**Output esperado**:
+```
+gpg: Good signature from "Whonix Release Signing Key"
+```
+
+## Paso 2: Configurar Whonix Gateway
+
+### 2.1. Crear red host-only
+
+**Objetivo**: Aislar la VM de redes externas.
+
+**Pasos manuales**:
+```bash
+# En host (macOS/Linux)
+VBoxManage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1
+```
+
+### 2.2. Configurar interfaz
+
+En VirtualBox:
+1. Configura **Whonix-Gateway** con Adaptador 1: NAT
+2. Configura **Whonix-Workstation** con Adaptador 1: Host-only
+
+## Paso 3: Verificar funcionamiento de Tor
+
+### 3.1. Chequear servicio Tor
+
+**Objetivo**: Confirmar que Tor está corriendo.
+
+**Pasos manuales**:
+```bash
+# En Whonix Gateway
+sudo systemctl status tor@default
+```
+
+**Output esperado**:
+```
+● tor@default.service - Anonymizing overlay network
+   Loaded: loaded
+   Active: active (running)
+```
+
+### 3.2. Verificar IP pública
+
+**Objetivo**: Confirmar anonimato.
+
+**Pasos manuales**:
+```bash
+# En Whonix Workstation
+curl --socks5-hostname 127.0.0.1:9050 https://check.torproject.org/api/ip
+```
+
+**Output esperado**:
+```json
+{"IsExit": true, "IP": "[IP DE SALIDA TOR]"}
+```
+
+## Paso 4: Navegador Tor Browser
+
+### 4.1. Configuración segura
+
+Verifica en Tor Browser:
+1. Security Settings → **Safest** (máximo)
+2. No instalar plugins
+3. No guardar contraseñas
+4. No descargar archivos ejecutables
+
+### 4.2. Acceso a servicio de prueba
+
+**Objetivo**: Verificar navegación segura.
+
+**Pasos manuales**:
+1. Navega a `http://check.torproject.org`
+2. Verifica mensaje "Congratulations. This browser is configured to use Tor."
+3. Toma captura de pantalla (solo la página de verificación)
+
+## Verificación Final
+
+| Checkpoint | Comando | Resultado esperado |
+|------------|---------|-------------------|
+| 1 | `systemctl status tor@default` | active (running) |
+| 2 | `curl --socks5 127.0.0.1:9050 https://ipinfo.io/ip` | IP diferente a tu real |
+| 3 | Tor Browser → check.torproject.org | Mensaje de confirmación |
+
+## Rubrica de laboratorio
+
+| Criterio | Excelente (5) | Bueno (3) | Necesita Mejora (1) |
+|----------|---------------|-----------|---------------------|
+| Seguridad OPSEC | Todos los pasos seguros | 1-2 riesgos menores | Multiple fallos de OPSEC |
+| Ejecución manual | Todo ejecutado manualmente | Algunos copy-paste | Mucha automatización |
+| Documentación | Screenshots + notas claras | Screenshots básicos | Incompleto |
+| Verificación | Todas las IPs verificadas | Algunas verificadas | No verificado |

@@ -1,0 +1,39 @@
+---
+quiz: 3
+title: "Quiz 3: Vulnerabilidades, Exploits y Credenciales"
+unit: 3
+estimated_time: "30 minutos"
+---
+
+# Quiz 3: Vulnerabilidades, Exploits y Credenciales
+
+## Preguntas
+
+### 1. Desarrollo
+
+Explica la diferencia entre un **checker** y un **brute-forcer** con un ejemplo de cada uno.
+
+### 2. Opción múltiple
+
+¿Cuál es el precio típico de credenciales corporativas VERIFICADAS (con MFA) según el libro?
+
+a) $100-$500  
+b) $500-$1500  
+c) $1000-$5000  
+d) $1500-$3000
+
+### 3. Verdadero/Falso
+
+Los exploit builders crean vulnerabilidades nuevas desde cero.
+
+### 4. Análisis
+
+Si ves credenciales de 7,000 corporativas a $1500+ y 15 millones de no verificadas a $700, ¿qué indica el precio diferencial?
+
+### 5. Comando
+
+Escribe el command para identificar User-Agent repetido en logs.
+
+### 6. Diseño
+
+¿Qué diferencia hay entre un exploit real y un exploit builder? (máx 3 líneas)

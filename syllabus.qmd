@@ -1,0 +1,96 @@
+---
+title: "Sílabo - Dark Web: De 0 a Experto"
+author: "Diego Saavedra"
+date: "2026"
+---
+
+# Sílabo de la Asignatura
+
+## 1. Información General
+
+| Campo | Valor |
+|-------|-------|
+| **Carrera** | Ingeniería en Sistemas/Computación |
+| **Código** | DW101 |
+| **Créditos** | 3 |
+| **Horas Teoría** | 2 h/semana |
+| **Horas Práctica** | 2 h/semana |
+| **Horas Autónomo** | 3 h/semana |
+| **Prerrequisitos** | Redes y Sistemas (RR001) |
+| **Docente** | Diego Saavedra — dsaavedra@unl.edu.ec |
+| **Office Hours** | Miércoles 14:00-16:00 |
+
+## 2. Descripción
+
+Este curso explora el ecosistema de la dark web desde una perseto técnica de investigación en ciberseguridad. Los estudiantes analizarán herramientas maliciosas, entenderán el modelo económico de la cibercriminalidad y desarrollarán habilidades para defender organizaciones contra amenazas emergentes. El enfoque combina teoría, análisis técnico y laboratorios controlados.
+
+## 3. Resultados de Aprendizaje
+
+### Generales
+
+| Código | Resultado | Nivel Bloom |
+|--------|-----------|-------------|
+| OG1 | **Analizar** las técnicas de acceso a la dark web **utilizando** Tor y Whonix, **verificando** la protección de identidad | Analizar |
+| OG2 | **Configurar** entornos de análisis de malware **utilizando** VMs aisladads, **validando** la seguridad del entorno | Aplicar |
+| OG3 | **Evaluar** el impacto de la economía underground **sobre** la seguridad organizacional, **justificando** recomendaciones de defensa | Evaluar |
+| OG4 | **Diseñar** estrategias de detección **basadas en** técnicas de living-off-the-land, **demuestrando** eficacia | Crear |
+
+### Específicos por Unidad
+
+| Unidad | Código | Resultado | Nivel Bloom |
+|--------|--------|-----------|-------------|
+| U1 | OE1.1 | Listar las diferencias entre web clara, deep web y dark web | Recordar |
+| U1 | OE1.2 | Explicar el funcionamiento de la red Tor | Comprender |
+| U2 | OE2.1 | Configurar un entorno Whonix para acceso seguro | Aplicar |
+| U3 | OE3.1 | Analizar un proof of concept de Log4Shell | Analizar |
+| U4 | OE4.1 | Identificar técnicas de evasión en loaders | Recordar |
+| U5 | OE5.1 | Examinar el código de un information stealer | Analizar |
+| U6 | OE6.1 | Comparar banking trojans Android vs Windows | Analizar |
+| U7 | OE7.1 | Desempacar malware usando técnicas estáticas | Aplicar |
+| U8 | OE8.1 | Interpretar tráfico C2 de Cobalt Strike | Comprender |
+| U9 | OE9.1 | Diagnosticar uso de LOLBins en un incidente | Analizar |
+| U10 | OE10.1 | Evaluar la seguridad de un locker de ransomware | Evaluar |
+| U11 | OE11.1 | Comparar técnicas de ransomware Linux vs Windows | Analizar |
+| U12 | OE12.1 | Proponer mitigaciones para futuras amenazas | Crear |
+
+## 4. Metodología
+
+El curso sigue el enfoque ABACOM de **aprendizaje activo** con:
+- **60% práctica**: Laboratorios con ejecución manual de comandos
+- **30% teoría**: Conceptos, casos de estudio y análisis
+- **10% autónomo**: Lecturas, ejercicios y proyectos
+
+Los laboratorios usan VMs completamente aisladadas. **No se permite el copy-paste** — cada comando se escribe manualmente para construir competencia real.
+
+## 5. Evaluación
+
+### Matriz de Evaluación
+
+| Resultado | Pond. | Instrumento | Tipo | Criterios | Semana |
+|-----------|-------|-------------|------|-----------|--------|
+| OE1.1-OE1.2 | 5% | Lab 1: Introducción a Tor | Formativa | VM funcionando, acceso exitoso | 2 |
+| OE2.1 | 10% | Quiz 2: OPSEC y Whonix | Sumativa | ≥ 70% correctas | 2 |
+| OE3.1 | 15% | Lab 3: Análisis de exploits | Formativa | Identificación correcta de vulnerabilidades | 4 |
+| OE4.1 | 5% | Quiz 4: Loaders | Formativa | ≥ 70% correctas | 5 |
+| OE5.1 | 5% | Lab 5: Stealers | Formativa | Extracción correcta de IOCs | 6 |
+| OE6.1 | 5% | Quiz 6: Banking trojans | Formativa | ≥ 70% correctas | 7 |
+| OE7.1 | 10% | Lab 7: Unpacking | Formativa | Payload recuperado exitosamente | 8 |
+| OE8.1 | 10% | Quiz 8: C2 Frameworks | Sumativa | ≥ 70% correctas | 9 |
+| OE9.1 | 5% | Lab 9: LOLBins | Formativa | Técnicas detectadas correctamente | 10 |
+| OE10.1 | 10% | Quiz 10: Ransomware | Sumativa | ≥ 70% correctas | 11 |
+| OE11.1 | 5% | Lab 11: Linux ransomware | Formativa | Análisis completado | 12 |
+| OG1-OG4 | 20% | Proyecto Final | Sumativa | Rúbrica adjunta | 13-15 |
+
+## 6. Bibliografía
+
+### Básica
+
+1. Kaye, L. (2026). *Dissecting the Dark Web*. No Starch Press. ISBN: 978-1-7185-0461-5.
+2. Saello, J. (2023). *Practical Malware Analysis*. No Starch Press.
+3. Kolias, V. et al. (2022). *Cybersecurity Education: A Hands-On Approach*. Springer.
+
+### Complementaria
+
+1. MITRE ATT&CK Framework — https://attack.mitre.org
+2. NIST SP 800-83 - Guide to Malware Incident Prevention and Handling
+3. GitHub: DissectingTheDarkWeb - https://github.com/DissectingTheDarkWebBook

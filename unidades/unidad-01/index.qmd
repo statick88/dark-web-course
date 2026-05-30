@@ -1,0 +1,219 @@
+---
+unit: 1
+title: "Fundamentos de la Dark Web"
+course: "Dark Web: De 0 a Experto"
+program: "Ingeniería en Sistemas"
+university: "UNL"
+semester: "2026"
+estimated_time: "6 horas"
+prerequisites:
+  - "Conceptos básicos de redes TCP/IP"
+  - "Navegadores web e internet"
+  - "Conceptos de seguridad informática"
+keywords:
+  - "dark web"
+  - "deep web"
+  - "tor"
+  - "anonimato"
+output: quarto
+---
+
+# Unidad 1: Fundamentos de la Dark Web
+
+## 1. Introducción
+
+¿Alguna vez te has preguntado cómo es posible que millones de datos robados se comercien en la dark web? ¿Cómo los cibercriminales acceden a estos mercados ocultos sin ser detectados? En 2021, el ataque a Colonial Pipeline puso en evidencia la existencia de este ecosistema criminal. Pero la dark web no es simplemente un "lugar oscuro" de internet; es una red compleja con sus propias reglas, herramientas y economía.
+
+Esta unidad te da la base para entender **qué es la dark web**, **cómo se diferencia de internet que conocemos**, y **por qué es importante para la ciberseguridad**.
+
+### Conexión al contexto
+
+La dark web representa el **3% restante** del total de información en internet. Mientras que internet visible (surface web) es accesible mediante motores de búsqueda, la dark web requiere herramientas especializadas y está compuesta principalmente por servicios criminales.
+
+## 2. Contenido Teórico
+
+### 2.1. La Web, el Deep Web y la Dark Web
+
+Los motores de búsqueda usan **crawlers** que indexan páginas. El archivo `robots.txt` indica qué contenido indexar. La **deep web** es el 95%+ de internet no indexado (passwords, bases deatos, paywalls). La **dark web** es el 3% restante: sitios `.onion` accesibles solo vía Tor.
+
+### 2.2. Onion Routing Detallado
+
+El proceso usa **3 nodos** con capas de encriptación:
+
+::: {.callout-tip}
+## Tres nodos de Tor
+
+| Nodo | Conoce | No conoce |
+|------|--------|-----------|
+| **Entry Guard** | IP origen | Destino final |
+| **Relay Node** | Nodo anterior/siguiente | IP origen o destino |
+| **Exit Node** | Destino final | IP origen |
+:::
+
+**Comandos de instalación Tor Browser (Linux)**:
+```bash
+tar -xf tor_browser_archive.tar.xz
+./start-tor-browser.desktop
+```
+
+### 2.3. OPSEC esencial
+
+- Usar Whonix-Gateway + Whonix-Workstation
+- VPN encima de Tor para ocultar uso de Tor
+- VM dedicada, nada de cuentas personales
+- Wipe/reimage fácil del sistema
+
+### 2.4. deepdarkCTI
+
+Fuente para encontrar direcciones .onion: repositorio de inteligencia abierta.
+
+## 3. Aplicaciones Prácticas
+
+### Escenario 1: Verificación de anonimato
+
+```bash
+# En Whonix
+curl --socks5 127.0.0.1:9050 https://check.torproject.org/api/ip
+# Output: {"IsExit": true, "IP": "[IP EXCLUSIVA TOR]"}
+```
+
+### Escenario 2: Búsqueda de fuentes
+
+deepdarkCTI provee URLs .onion verificables para investigación.
+
+## 3. Aplicaciones Prácticas
+
+### Escenario 1: Navegando foros ocultos
+
+Un investigador encuentra un foro .onion que vende credenciales robadas. ¿Cómo acceder sin exponer su identidad?
+
+**Requisitos**: Whonix (gateway + workstation), encuesta de amenazas, mecanismo de verificación.
+
+### Escenario 2: Investigando precios de exploits
+
+Un analista ve varios exploits vendidos por $5,000 cada uno. ¿Qué indica esto sobre el mercado?
+
+**Análisis**: Los precios revelan la demanda, la complejidad y el valor percibido.
+
+## 4. Caso de Estudio: El modelo Cyber Kill Chain
+
+El libro utiliza el modelo **Cyber Kill Chain** de Lockheed Martin para estructurar el ataque:
+
+| Fase | Descripción | Herramientas en dark web |
+|------|-------------|------------------------|
+| 1. Reconocimiento | Identificar objetivos | Herramientas de escaneo |
+| 2. Arma | Crear vector de ataque | Exploits, phishing kits |
+| 3. Entrega | Llevar arma al objetivo | Packers, loaders |
+| 4. Explotación | Ejecutar código malicioso | Exploit builders |
+| 5. Instalación | Persistir en el sistema | Backdoors, RATs |
+| 6. Comando y Control | Comunicación con víctima | C2 frameworks |
+| 7. Acción en Objetivo | Robo de datos, ransomware | Toolkits de exfiltración |
+
+## 5. Errores Comunes
+
+### ❌ Misconception: "Tor hace todo el trabajo de anonimato"
+
+**Por qué es incorrecto**: Tor solo protege el tráfico de red. Si envías tu nombre real, cookies de sesión previas, o usas el mismo lenguaje de escritura, puedes ser identificado.
+
+**✅ Comprensión correcta**: Tor es una herramienta que debes combinar con buenas prácticas de OPSEC: VM aislada, nada de personal identifiable, comportamiento neutro.
+
+### ❌ Misconception: "La dark web es solo para criminales"
+
+**Por qué es incorrecto**: Periodistas, activistas, y personas bajo regímenes opresivos usan la dark web para comunicación segura.
+
+**✅ Comprensión correcta**: La dark web es una herramienta de anonimato. Su uso depende de las intenciones del usuario.
+
+## 6. Actividades
+
+### Lecturas Asignadas
+
+**Obligatoria**: Kaye, L. (2026). *Dissecting the Dark Web*, Capítulos 1-2, pp. 1-50.
+
+**Opcional**: ["How Tor Works" — Electronic Frontier Foundation](https://ssd.eff.org/en/module/how-tor-works)
+
+### Ejercicios Prácticos
+
+#### Ejercicio 1: Identificar tipos de web
+
+**Objetivo**: Diferenciar entre surface, deep y dark web.
+
+**Pasos**:
+1. Lista 5 ejemplos de surface web (ej: wikipedia.org)
+2. Lista 5 ejemplos de deep web (ej: gmail.com)
+3. Explica por qué cada uno pertenece a su categoría
+
+**Verifica**: Las diferencias clave están claramente identificadas.
+
+#### Ejercicio 2: Simular onion routing
+
+**Objetivo**: Entender el concepto de enrutamiento en capas.
+
+**Pasos**:
+1. Escribe un mensaje de ejemplo
+2. Encripta "manualmente" usando 3 claves diferentes (simulado)
+3. Dibuena el flujo de cómo cada nodo lo recibe y lo pasa
+
+**Verifica**: El diagrama muestra claramente las capas y los nodos.
+
+### Preguntas de Discusión
+
+1. ¿Deben los gobiernos prohibir tecnologías como Tor? ¿Por qué o por qué no?
+2. ¿Cómo afecta el anonimato en la dark web al modelo de responsabilidad en ciberseguridad?
+
+### Auto-Evaluación
+
+### Preguntas de Verificación
+
+1. **MCQ**: ¿Cuál capa del modelo OSI maneja la encriptación para Tor?
+   a) Física
+   b) Enlace
+   c) Red
+   d) Transporte
+   
+   > **Respuesta**: d) Transporte. Las conexiones TLS protegen la capa de transporte.
+
+2. **Verdadero/Falso**: La dark web representa más del 50% del contenido de internet.
+   
+   > **Falso**. La dark web es menos del 3% del total.
+
+3. **Corto**: ¿Qué significa "onion routing" en una frase?
+   
+   > **Respuesta**: Enrutamiento en capas donde cada nodo solo conoce su segmento de la ruta.
+
+## 7. Bibliografía
+
+### Principal
+
+- Kaye, L. (2026). *Dissecting the Dark Web*. No Starch Press. ISBN: 978-1-7185-0461-5.
+
+### Papeles
+
+- Anderson, R. (2021). "The Tor Network: A Survey". *Journal of Cybersecurity*, 7(2). DOI: 10.1093/cybsec/tyab008
+
+### Estándares
+
+- RFC 4949 — Internet Security Glossary
+
+### Digital
+
+- [Tor Project Documentation](https://tb-manual.torproject.org/)
+- [MITRE ATT&CK - Initial Access](https://attack.mitre.org/tactics/TA0001/)
+
+## 8. Tareas Anti-IA
+
+### Tarea 1: Dibujo manual
+
+**Tarea**: En papel, dibuja el flujo de onion routing con 3 nodos. Incluye:
+- Dirección IP de origen
+- Capas de encriptación
+- Qué ve cada nodo
+
+**Regla**: Sin herramientas digitales. Toma foto y sube. Calificación: completitud, etiquetas, precisión.
+
+### Tarea 2: Explicación oral
+
+**Tarea**: Graba un video de 3 minutos explicando la diferencia entre deep web y dark web como si enseñaras a un compañero.
+
+**Requerimientos**: Usa analogías, responde 1 pregunta adicional del instructor.
+
+**Evaluación**: Claridad, corrección, capacidad de responder preguntas.

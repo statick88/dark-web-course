@@ -1,0 +1,26 @@
+---
+quiz: 10
+title: "Quiz 10: Windows Ransomware"
+---
+
+# Quiz 10: Windows Ransomware
+
+### 1. Identificar
+
+Algoritmo típico para generar claves de ransomware.
+
+### 2. Explicar
+
+Qué hace `vssadmin delete shadows` en ataque.
+
+### 3. Analizar
+
+Diferencia entre versión temprana y mejorada de REvil.
+
+### 4. Verificar
+
+Método para identificar ransomware en logs.
+
+### 5. Comando
+
+Escribe el command para matar procesos específicos.

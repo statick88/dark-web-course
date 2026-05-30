@@ -1,0 +1,46 @@
+/* Dark Web Course - Custom Styles */
+
+:root {
+  --dw-primary: #0f3460;
+  --dw-secondary: #1a1a2e;
+  --dw-accent: #e94560;
+  --dw-light: #fff;
+}
+
+/* TOC styling */
+.sidebar .nav-link {
+  color: var(--dw-primary);
+}
+
+.sidebar .nav-link.active {
+  background-color: var(--dw-accent);
+}
+
+/* Callouts customization */
+.callout-tip {
+  border-left-color: var(--dw-accent);
+}
+
+.callout-warning {
+  border-left-color: #ff9f1c;
+}
+
+.callout-note {
+  border-left-color: #2ec4b6;
+}
+
+/* Code blocks */
+pre {
+  background-color: var(--dw-secondary) !important;
+  border: 1px solid var(--dw-accent);
+}
+
+/* Tables */
+table th {
+  background-color: var(--dw-primary) !important;
+  color: var(--dw-light) !important;
+}
+
+table td {
+  border: 1px solid #ddd;
+}

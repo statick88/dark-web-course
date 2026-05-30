@@ -1,0 +1,26 @@
+---
+quiz: 12
+title: "Quiz 12: Lecciones de la Economía Underground"
+---
+
+# Quiz 12: Lecciones de la Economía Underground
+
+### 1. Definir
+
+¿Qué significa reactive development en threat actors?
+
+### 2. Explicar
+
+Modelo de negocio de Ransomware-as-a-Service.
+
+### 3. Analizar
+
+Impacto de IA generativa en el underground.
+
+### 4. Proponer
+
+Una mitigación para futuras amenazas de stealers.
+
+### 5. Reflexionar
+
+¿Cómo cambia el threat landscape con Rust malware?

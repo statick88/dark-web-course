@@ -1,0 +1,60 @@
+---
+lab: 12
+title: "Laboratorio 12: Proyecto Final"
+unit: 12
+estimated_time: "4 horas"
+---
+
+# Laboratorio 12: Proyecto Final
+
+## Objetivo
+
+Completar un análisis integral de un caso real del underground y presentar recomendaciones de defensa.
+
+## Paso 1: Selección de caso
+
+### 1.1. Fuentes permitidas
+
+- Reportes de Symantec/Mandiant
+- GitHub: DissectingTheDarkWeb
+- Blogposts de investigadores públicos
+
+**NO** acceder a foros reales
+
+## Paso 2: Análisis del caso
+
+### 2.1. Kill chain mapping
+
+| Fase Kill Chain | Técnica observada | Herramienta usada |
+|-----------------|-------------------|-------------------|
+| 1. Reconocimiento | | |
+| 2. Arma | | |
+| 3. Entrega | | |
+| 4. Explotación | | |
+| 5. Instalación | | |
+| 6. C2 | | |
+| 7. Acción | | |
+
+## Paso 3: Recomendaciones
+
+### 3.1. Mitigación por fase
+
+Para cada fase identifica:
+- Señales de detección
+- Controles preventivos
+- Respuesta a incidentes
+
+## Entregable
+
+1. Reporte de 2-3 páginas (syllabus + análisis + mitigaciones)
+2. Presentación de 5 diapositivas
+3. Lista de IoCs recopilados
+
+## Rubrica
+
+| Criterio | Excelente | Bueno | Mejorable |
+|----------|-----------|-------|-----------|
+| Análisis | Kill chain completo | 5/7 fases | <5 fases |
+| IoCs | 10+ identificados | 5-10 | <5 |
+| Mitigaciones | Al menos 3 | 1-2 | 0-1 |
+| Presentación | Clara y técnica | Básica | Confusa |

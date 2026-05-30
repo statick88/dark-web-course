@@ -1,0 +1,44 @@
+---
+quiz: 2
+title: "Quiz 2: OPSEC y Whonix"
+unit: 2
+estimated_time: "20 minutos"
+---
+
+# Quiz 2: OPSEC y Whonix
+
+## Preguntas
+
+### 1. Desarrollo
+
+¿Por qué es crítico usar una VM completamente nueva para navegar dark web?
+
+### 2. Opción múltiple
+
+¿Cuántas VMs tiene Whonix por defecto?
+
+a) 1  
+b) 2  
+c) 3  
+d) Depende de la instalación
+
+### 3. Verdadero/Falso
+
+Los horarios predecibles de navegación pueden ser una señal de identificación.
+
+### 4. Análisis
+
+Dado este log de firewall:
+```
+DROP tcp -- anywhere 192.168.1.100
+ACCEPT tcp -- anywhere 10.152.152.10
+```
+¿Qué política de red se está aplicando?
+
+### 5. Comando
+
+Escribe el comando para verificar el estado del servicio Tor.
+
+---
+
+**Puntuación total**: 30 pts | **Passing**: 21 pts (70%)

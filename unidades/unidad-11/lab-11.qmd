@@ -1,0 +1,44 @@
+---
+lab: 11
+title: "Laboratorio 11: Análisis de Ransomware Linux/ESXi"
+unit: 11
+estimated_time: "2 horas"
+---
+
+# Laboratorio 11: Análisis de Ransomware Linux/ESXi
+
+## Objetivo
+
+Analizar variantes de ransomware para sistemas Unix sin ejecutar código.
+
+## Paso 1: Identificar paths de ESXi
+
+### 1.1. Configuración típica
+
+```bash
+strings esxi_ransomware.elf | grep -i -E "(vmfs|vmdk|vmx|vsphere)"
+```
+
+## Paso 2: Identificar rutas excluidas
+
+### 2.1. Whitelist Linux
+
+```bash
+strings ransomware.elf | grep -i -E "(bin|etc|usr|lib|systemd)"
+```
+
+## Paso 3: Identificar procesos atacados
+
+### 3.1. Process killing
+
+```bash
+strings ransomware.elf | grep -i -E "(kill|shutdown|pkill|systemctl)"
+```
+
+## Verificación
+
+| Checkpoint | Resultado |
+|------------|-----------|
+| VMFS paths | Identificado |
+| Whitelist | Detectado |
+| Process kill | Encontrado |

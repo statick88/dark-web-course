@@ -1,0 +1,44 @@
+---
+lab: 10
+title: "Laboratorio 10: Análisis de Ransomware Windows"
+unit: 10
+estimated_time: "2 horas"
+---
+
+# Laboratorio 10: Análisis de Ransomware Windows
+
+## Objetivo
+
+Analizar técnicas de encriptación en REvil/Sodinokibi sin ejecutar código.
+
+## Paso 1: Identificar rutas excluidas
+
+### 1.1. Whitelist strings
+
+```bash
+strings ransomware.exe | grep -i -E "(window|system32|boot|whitelist)"
+```
+
+## Paso 2: Identificar rutas de eliminación de backups
+
+### 2.1. Shadow copy deletion
+
+```bash
+strings ransomware.exe | grep -i -E "(vssadmin|shadow|delete|wmic)"
+```
+
+## Paso 3: Identificar rutas de exfiltración
+
+### 3.1. Note drop
+
+```bash
+strings ransomware.exe | grep -i -E "(readme|decrypt|tor.*onion|payment)"
+```
+
+## Verificación
+
+| Checkpoint | Resultado |
+|------------|-----------|
+| Whitelist | Identificado |
+| VSS deletion | Detectado |
+| Note drop | Encontrado |

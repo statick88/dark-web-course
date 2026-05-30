@@ -1,0 +1,38 @@
+---
+lab: 8
+title: "Laboratorio 8: Análisis de Frameworks C2"
+unit: 8
+estimated_time: "2 horas"
+---
+
+# Laboratorio 8: Análisis de Frameworks C2
+
+## Objetivo
+
+Analizar configuración de Vermilion Strike/Cobalt Strike usando técnicas de extracción.
+
+## Paso 1: Identificar configuración
+
+### 1.1. Strings sospechosas
+
+```bash
+strings malware.exe | grep -i -E "(beacon|teamserver|callback|jarm)"
+```
+
+## Paso 2: Decodificar configuración
+
+### 2.1. XOR decode
+
+```python
+# Pseudocódigo para decode
+def decode_config(data, key=0x55):
+    return bytes([b ^ key for b in data])
+```
+
+## Verificación
+
+| Checkpoint | Resultado |
+|------------|-----------|
+| Config strings | Extraídas |
+| Decryption | Completada |
+| C2 domains | Identificadas |

@@ -1,0 +1,33 @@
+---
+quiz: 4
+title: "Quiz 4: Malware Delivery Techniques"
+unit: 4
+estimated_time: "20 minutos"
+---
+
+# Quiz 4: Malware Delivery Techniques
+
+### 1. Desarrollo
+
+¿Qué diferencia a un loader de un botnet?
+
+### 2. Opción múltiple
+
+¿Qué técnica usa SmokeLoader para detectar depuración?
+
+a) Chequeo de IP pública  
+b) IsDebuggerPresent API  
+c) Análisis de tráfico  
+d) Fingerprint de navegador
+
+### 3. Verdadero/Falso
+
+Mirai se propaga mediante fuerza bruta de credenciales Telnet.
+
+### 4. Análisis
+
+¿Qué indica alta entropía en un binario?
+
+### 5. Comando
+
+Escribe el comando para identificar strings ofuscadas.

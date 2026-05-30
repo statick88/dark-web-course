@@ -1,0 +1,26 @@
+---
+quiz: 7
+title: "Quiz 7: Packers y Crypters"
+---
+
+# Quiz 7: Packers y Crypters
+
+### 1. Definir
+
+¿Qué hace un packer en malware?
+
+### 2. Identificar
+
+Técnica para detectar malware empaquetado.
+
+### 3. Explicar
+
+Método de unpacking estático vs dinámico.
+
+### 4. Diferenciar
+
+Entropy alta significa qué en análisis.
+
+### 5. Comando
+
+Escribe el command para desempaquetar con UPX.

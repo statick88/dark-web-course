@@ -1,0 +1,38 @@
+---
+lab: 6
+title: "Laboratorio 6: Banking Trojans Android"
+unit: 6
+estimated_time: "2 horas"
+---
+
+# Laboratorio 6: Banking Trojans Android
+
+## Objetivo
+
+Analizar el uso de Accessibility API en trojans bancarios mediante inspección estática.
+
+## Paso 1: Identificar permisos
+
+### 1.1. Manifest analysis
+
+```bash
+apktool d malware.apk
+grep -A2 -B2 "android.permission.BIND_ACCESSIBILITY_SERVICE" malware/AndroidManifest.xml
+```
+
+## Paso 2: Identificar overlays
+
+### 2.1. Overlay code
+
+```bash
+grep -r "TYPE_APPLICATION_OVERLAY" malware/smali/
+grep -r "WindowManager.LayoutParams" malware/smali/
+```
+
+## Verificación
+
+| Checkpoint | Resultado |
+|------------|-----------|
+| Accessibility perm | Identificado |
+| Overlay code | Detectado |
+| Suspicous perms | Listados |

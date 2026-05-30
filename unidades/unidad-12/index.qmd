@@ -1,0 +1,85 @@
+---
+unit: 12
+title: "Lecciones de la Economía Underground"
+estimated_time: "4 horas"
+keywords:
+  - "underground economy"
+  - "threat actors"
+  - "cybercrime trends"
+output: quarto
+---
+
+# Unidad 12: Lecciones de la Economía Underground
+
+## 1. Introducción
+
+La dark web no es caos: es un **ecosistema económico** con dinámicas claras. Entender estas dinámicas ayuda a predecir la próxima ola de amenazas.
+
+## 2. Modelo económico del underground
+
+### 2.1. Reactive Development
+
+Los actores reaccionan a:
+- Parches de seguridad
+- Operaciones de law enforcement
+- Nuevas herramientas de defensa
+
+### 2.2. Rebranding
+
+Productos criminales:
+- Cambio de nombre (REvil → Sodinokibi)
+- Actualización de versiones
+- Nuevos "vendedores"
+
+## 3. Lowered Barriers to Entry
+
+### 3.1. DIY malware kits
+
+Cualquiera puede comprar:
+- Phishing kits ($50-$500)
+- Loaders ($20-$200)
+- Ransomware RaaS (30% profit share)
+
+### 3.2. Tutoriales publicados
+
+La dark web es **educativa**:
+- Tutoriales de pentesting
+- Manuales de uso de herramientas
+- "Cursos" de ciberdelincuencia
+
+## 4. Inteligencia Artificial
+
+Aplicaciones emergentes:
+- **Generación de phishing emails** con LLMs
+- **Evasión de antivirus** con prompts
+- **Análisis automático** de vulnerabilidades
+
+## 5. Futuro de la ciberseguridad
+
+### Tendencias
+
+1. **IA generativa** como arma y defensa
+2. **Rust/Go** para malware más eficiente
+3. **Ransomware** contra infra crítica
+4. **Deepfakes** para ingeniería social
+
+### Estrategias defensivas
+
+- Threat hunting proactivo
+- Zero-trust architecture
+- AI-powered detection
+- Supply chain security
+
+## 6. Proyecto Final
+
+Analiza un caso real del underground (sin acceder) y escribe:
+- Herramientas involucradas
+- Kill chain del ataque
+- Mitigaciones propuestas
+- Impacto económico
+
+## 7. Auto-Evaluación
+
+1. ¿Qué significa reactive development?
+2. Modelo de negocio de Ransomware-as-a-Service
+3. Impacto de IA en el underground

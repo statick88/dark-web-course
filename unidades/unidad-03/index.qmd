@@ -1,0 +1,128 @@
+---
+unit: 3
+title: "Vulnerabilidades, Exploits y Acceso Inicial"
+course: "Dark Web: De 0 a Experto"
+program: "Ingeniería en Sistemas"
+university: "UNL"
+estimated_time: "8 horas"
+prerequisites:
+  - "Unidad 2: OPSEC"
+keywords:
+  - "vulnerabilities"
+  - "exploits"
+  - "phishing"
+  - "IAB"
+output: quarto
+---
+
+# Unidad 3: Vulnerabilidades, Exploits y Acceso Inicial
+
+## 1. Introducción
+
+La dark web funciona como un mercado donde el producto más valioso es el **acceso**. Los Initial Access Brokers (IABs) venden puertas de entrada a organizaciones, mientras que exploits como Log4Shell se comercializan en paquetes listos para usar. Esta unidad te enseña a entender estos productos desde una perspectiva defensiva.
+
+## 2. Contenido Teórico
+
+### 2.1. Initial Access Brokers (IABs)
+
+Los IABs venden **acceso verificado** con precios basados en:
+- Tamaño de la organización
+- Tipo de acceso (VPN, RDP, dominio)
+- Información MFA incluida
+
+| Tipo de acceso | Precio típico | Precio con MFA |
+|----------------|---------------|----------------|
+| Personal | $10-$100 | $50-$200 |
+| Corporativo pequeño | $100-$500 | $300-$800 |
+| Credenciales dominio | $500-$2000 | $1000-$5000 |
+| AWS/GCP/Azure | $1000-$5000 | $2000-$10000 |
+
+### 2.2. Checkers vs Brute-Forcers
+
+| Herramienta | Función | Ejemplo del libro |
+|-------------|---------|-------------------|
+| **Checkers** | Verifica credenciales existentes | TMChecker |
+| **Brute-Forcers** | Fuerza bruta para nuevas | Forti VPN Bruter |
+
+Los checkers automatizan la verificación:
+- 15 millón de credenciales sin verificar = $400-$700
+- 7,000 credenciales verificadas (corporativas + MFA) = $1000+
+
+### 2.3. Exploit Builders
+
+No crean exploits nuevos — son **mecanismos de entrega**:
+- HTML-based phishing
+- LNK/URL attachments
+- Malvertising integrado
+
+**Nota del libro**: Más baratos que exploits reales, requieren menos skills técnicos.
+
+## 3. Caso de Estudio: TMChecker
+
+TMChecker verifica credenciales corporativas:
+
+1. **Entrada**: Lista de correos/usuarios
+2. **Proceso**: Login automatizado a OWA/Office365
+3. **Salida**: Archivo con credenciales válidas
+
+### Análisis técnico
+
+```python
+# Pseudocódigo del proceso de verificación
+def verify_credentials(username, password):
+    session = requests.Session()
+    response = session.post(
+        "https://outlook.office365.com/owa/",
+        data={"username": username, "password": password}
+    )
+    if "authenticated" in response.text:
+        return True
+    return False
+```
+
+### Señales de detección
+
+- Múltiples logins fallidos seguidos
+- User-Agent idéntico en todas las peticiones
+- Horarios predecibles de ataque
+
+## 4. Errores Comunes
+
+### ❌ Misconception: "Los exploits son imposibles de usar"
+
+**¿Por qué es falso?**: Los IABs empaquetan exploits con instrucciones paso a paso. Baja la barrera de entrada.
+
+### ❌ Misconception: "Phishing es ineficaz"
+
+**¿Por qué es falso?**: El 30% de los ataques exitosos comienzan con phishing. Es rentable.
+
+## 5. Actividades
+
+### Lectura
+
+- Kaye, L. (2026). *Dissecting the Dark Web*, Capítulo 2.
+
+### Ejercicios
+
+#### Ejercicio 1: Análisis de CVE
+
+Selecciona Log4Shell y explica:
+- Vector de ataque
+- Condiciones necesarias
+- Mitigación
+
+#### Ejercicio 2: Identificar IoCs
+
+Dado un log de autenticación, identifica 3 indicadores de TMChecker.
+
+## 6. Auto-Evaluación
+
+1. **Listar**: 5 tipos de acceso vendidos por IABs
+2. **Explicar**: Cómo verifica un checker las credenciales
+3. **Analizar**: Diferencias entre Zphisher y Greatness kit
+
+## 7. Bibliografía
+
+- MITRE ATT&CK — Initial Access Tactics
+- Kaye, L. (2026). *Dissecting the Dark Web*, Capítulo 2.
+- NIST NVD — CVE database.

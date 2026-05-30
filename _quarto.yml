@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: docs
+  resources:
+    - "assets/**"
+    - "css/**"
 
 book:
   title: "Dark Web: De 0 a Experto"

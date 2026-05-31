@@ -1,10 +1,11 @@
-/* Dark Web Course - Custom Styles */
+/* Dark Web Course - Custom Styles using Official Solarized Colors */
 
 :root {
-  --dw-primary: #0f3460;
-  --dw-secondary: #002b36; /* Solarized Base03 */
-  --dw-accent: #e94560;
-  --dw-light: #839496; /* Solarized Base0 */
+  /* Solarized Base Colors for Dark Theme */
+  --dw-primary: #073642; /* Base02 - used for table headers */
+  --dw-secondary: #002b36; /* Base03 - background */
+  --dw-accent: #268bd2; /* Blue - accent color */
+  --dw-light: #839496; /* Base0 - default text */
 }
 
 /* Sidebar styling */
@@ -24,23 +25,23 @@
   color: var(--dw-light);
 }
 
-/* Callouts customization */
+/* Callouts customization - using official Solarized accents */
 .callout-tip {
-  border-left-color: var(--dw-accent);
+  border-left-color: var(--dw-accent); /* Blue */
 }
 
 .callout-warning {
-  border-left-color: #ff9f1c;
+  border-left-color: #b58900; /* Yellow */
 }
 
 .callout-note {
-  border-left-color: #2ec4b6;
+  border-left-color: #859900; /* Green */
 }
 
 /* Code blocks */
 pre {
   background-color: var(--dw-secondary) !important;
-  border: 1px solid var(--dw-accent);
+  border: 1px solid #073642; /* Base02 - subtle border */
 }
 
 /* Tables */

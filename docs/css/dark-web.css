@@ -1,11 +1,11 @@
-/* Dark Web Course - Custom Styles using Official Solarized Colors */
+/* Dark Web Course - Custom Styles using Official Solarized Colors with White Text */
 
 :root {
   /* Solarized Base Colors for Dark Theme */
   --dw-primary: #073642; /* Base02 - used for table headers */
   --dw-secondary: #002b36; /* Base03 - background */
   --dw-accent: #268bd2; /* Blue - accent color */
-  --dw-light: #839496; /* Base0 - default text */
+  --dw-light: #ffffff; /* Pure white text */
 }
 
 /* Sidebar styling */
@@ -15,14 +15,20 @@
   color: var(--dw-light) !important;
 }
 
+/* Override any theme-specific text colors */
+#quarto-sidebar *,
+.sidebar * {
+  color: var(--dw-light) !important;
+}
+
 /* TOC styling */
 .sidebar .nav-link {
-  color: var(--dw-light);
+  color: var(--dw-light) !important;
 }
 
 .sidebar .nav-link.active {
-  background-color: var(--dw-accent);
-  color: var(--dw-light);
+  background-color: var(--dw-accent) !important;
+  color: var(--dw-light) !important;
 }
 
 /* Callouts customization - using official Solarized accents */

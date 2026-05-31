@@ -7,6 +7,13 @@
   --dw-light: #fff;
 }
 
+/* Sidebar styling */
+#quarto-sidebar,
+.sidebar {
+  background-color: var(--dw-secondary) !important;
+  color: var(--dw-light) !important;
+}
+
 /* TOC styling */
 .sidebar .nav-link {
   color: var(--dw-primary);

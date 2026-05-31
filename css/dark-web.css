@@ -2,9 +2,9 @@
 
 :root {
   --dw-primary: #0f3460;
-  --dw-secondary: #1a1a2e;
+  --dw-secondary: #002b36; /* Solarized Base03 */
   --dw-accent: #e94560;
-  --dw-light: #fff;
+  --dw-light: #839496; /* Solarized Base0 */
 }
 
 /* Sidebar styling */
@@ -16,11 +16,12 @@
 
 /* TOC styling */
 .sidebar .nav-link {
-  color: var(--dw-primary);
+  color: var(--dw-light);
 }
 
 .sidebar .nav-link.active {
   background-color: var(--dw-accent);
+  color: var(--dw-light);
 }
 
 /* Callouts customization */

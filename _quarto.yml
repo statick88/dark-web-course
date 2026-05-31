@@ -79,6 +79,7 @@ book:
 format:
   html:
     theme: solar
+    css: css/dark-web.css
     toc: true
     number-sections: true
   pdf:
